@@ -1,0 +1,142 @@
+
+*{
+    margin: 2px;
+}
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    /*background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));*/
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+h1 {
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    color: #92a4ff;
+}
+
+h2 {
+    margin: 15px;
+    padding: 10px;
+    color: #92a4ff;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 33vw;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+}
+
+.bordes-redondeados{
+    border-radius:50%;
+}
+
+/*
+Border-collapse se utiliza para fusionar los bordes. 
+La representación de los bordes de tabla es dividida en dos categorías en CSS2 - "fusión" y "separación" (collapsed - separated).
+
+En el modelo de fusión, las celdas adyacentes comparten los mismos bordes
+
+En el modelo de separación, cada celda adyacente tiene su propio borde
+La distancia entre cada borde es dado con la propiedad del espaciado de borde.
+
+Valor inicial: separado
+
+Sintaxis
+border-collapse: value
+Valores
+inherit : Define explícitamente el valor como heredada del elemento padre.
+separate : Utiliza el modo de presentación de separación de borde.
+collapse : Utiliza el modo de presentación de fusión de borde
+
+<table border="1" style="border-collapse: collapse" bordercolor="#111111" width="500">
+<table border="1" style="border-collapse: separate" bordercolor="#111111" width="500">
+table{
+    border-collapse
+}
+*/
+
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(90, 88, 88);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+td,
+th{
+    border: 1px solid rgb(169, 99, 99);
+    padding: 10px 20px;
+
+}
+
+#mat{
+    text-align:right;
+}
+
+a{
+    text-decoration: none;
+  }
+  
+.footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
