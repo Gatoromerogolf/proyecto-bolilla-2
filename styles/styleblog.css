@@ -1,3 +1,53 @@
+/* VALOR DE RESPALDO:
+Funciona cuando no anda la variable (error de tipeo, por ejemplo:
+se escribe::after
+background: var(--variable, black)
+black sería el valor de respaldo
+
+
+PRIORIDAD EN LOS ESTILOS
+
+/*  se da prioridad al estilo más específico EJ: el estilo de un <li> es más importante que el del <ol>
+Es más importante el selector de clase sobre selector de tipo
+
+Selectores de tipo
+selecciona elementos que coinciden con el nombre del elemento
+Ej: h1{} ; input{}, se aplicará a cualquier elemento  <input>
+
+Selectores de clase
+seleciona elementos que contienen el atributo de class 
+Ej: .index {} selecciona ls que tengan la clase  "index"
+
+Selectores de ID
+#unique {}
+
+Selectores de atributo
+a[title] {}
+
+
+El orden de los estilos:
+
+A) en clases: la último asignada.
+
+Selector de tipo vs de clase
+
+B) a{  }   vs  .nombre-clase
+la clase es + importante que el tipo...
+o sea, prioriza   .nombre-clase
+tipo(generico) clase(específica)
+
+C) id >>  clase
+#  >>  .clase
+
+D) estilo en linea >> id y clase
+
+E) agregando !important tiene maxima prioridad
+
+.texto-azul {
+  color: blue !important
+}
+*/
+
 
 *{
     margin: 2px;
@@ -23,11 +73,11 @@ ul {
     background-color: #333;
 }
 
-li {
+li.barra {
     float: left;
 }
 
-li a {
+li.barra a {
     display: block;
     color: white;
     text-align: center;
@@ -35,8 +85,8 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+li.barra a:hover:not(.active) {
+    background-color: #f80202;
 }
 
 .active {
@@ -47,14 +97,21 @@ h1 {
     background-color: black;
     padding: 10px;
     margin: 0;
-    color: #92a4ff;
+    color: #fbfbfd;
 }
 
 h2 {
-    margin: 15px;
+    margin: 10px;
     padding: 10px;
     color: #92a4ff;
 }
+
+h3 {
+    margin: 15px;
+    padding: 10px;
+    color: #051774;
+}
+
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -112,13 +169,14 @@ table{
 
 table{
     border-collapse: collapse;
-    border: 2px solid rgb(90, 88, 88);
+    border: 0 solid rgb(90, 88, 88);
     letter-spacing: 1px;
     font-size: 0.8rem;
 }
 
 td,
 th{
+    border-collapse: collapse;
     border: 1px solid rgb(169, 99, 99);
     padding: 10px 20px;
 
@@ -131,7 +189,14 @@ th{
 a{
     text-decoration: none;
   }
-  
+
+#frase-joaco{
+    font-size: small;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    font-style: italic;
+}  
 .footer {
     background-color: #333;
     color: #FFF;
