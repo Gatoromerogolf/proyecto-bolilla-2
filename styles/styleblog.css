@@ -56,7 +56,7 @@ E) agregando !important tiene maxima prioridad
 body {
     font-family: "Lucida Console", "Courier New", monospace;
     /*background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));*/
-    background-color: antiquewhite;
+    background-color: rgb(242, 236, 227);
     padding: 0;
     margin: 0;
 }
