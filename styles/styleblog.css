@@ -128,10 +128,6 @@ div.gallery img {
     height: auto;
 }
 
-div.gallery video {
-    width: auto;
-    height: 300px;
-}
 
 div.desc {
     padding: 15px;
