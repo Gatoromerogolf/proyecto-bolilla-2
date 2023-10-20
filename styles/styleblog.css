@@ -81,7 +81,7 @@ li.barra a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
 }
 
@@ -207,5 +207,13 @@ a{
     padding: 10px;
     text-align: center;
     clear: both;
+}
+
+.bn{
+    text-align: center;
+    font-size: x-large;
+    font-style: initial;
+    font-weight:bolder;
+    background-color: #f80202;
 }
 
