@@ -137,7 +137,6 @@ div.desc {
 .centrado {
     display: flex;
     justify-content: center;
-    width: 305px;
 }
 
 .bordes-redondeados{
