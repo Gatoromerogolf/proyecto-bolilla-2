@@ -56,7 +56,7 @@ E) agregando !important tiene maxima prioridad
 body {
     font-family: "Lucida Console", "Courier New", monospace;
     /*background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));*/
-    background-color: rgb(242, 236, 227);
+    background-color: rgba(252, 251, 251, 0.301);
     padding: 0;
     margin: 0;
 }
@@ -81,7 +81,7 @@ li.barra a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
 }
 
@@ -178,9 +178,12 @@ table{
 td,
 th{
     border-collapse: collapse;
-    border: 1px solid rgb(169, 99, 99);
-    padding: 10px 20px;
+    border: 1px solid rgb(71, 69, 69);
+    padding: 8px 16px;
+}
 
+th{
+    background-color: #c2cff8c9;
 }
 
 #mat{
@@ -206,3 +209,37 @@ a{
     clear: both;
 }
 
+.bn{
+    text-align: center;
+    font-size: x-large;
+    font-style: initial;
+    font-weight:bolder;
+    background-color: #f80202;
+}
+
+.slider{
+    aspect-ratio: 16 / 10;
+    width: 400px;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.slider img{
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 1px;
+    scroll-snap-align: center;
+}
+
+.slider a{
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
+}
