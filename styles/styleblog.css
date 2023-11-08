@@ -95,15 +95,15 @@ li.barra a:hover:not(.active) {
 
 h1 {
     background-color: black;
-    padding: 10px;
     margin: 0;
+    padding: 10px;
     color: #fbfbfd;
 }
 
 h2 {
-    margin: 7x;
+    margin: 5x;
     padding: 10px;
-    color: #92a4ff;
+    color: #061e94;
 }
 
 h3 {
