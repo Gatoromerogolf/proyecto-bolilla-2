@@ -171,8 +171,8 @@ table{
 table{
     border-collapse: collapse;
     border: 0 solid rgb(90, 88, 88);
-    letter-spacing: 1px;
-    font-size: 0.8rem;
+    letter-spacing: 0px;
+    font-size: 0.9rem;
 }
 
 td,
