@@ -20,7 +20,7 @@ tr, th, td{
 
 table {
   background-color: white;
-  width: 300px;
+  width: 500;
   margin: 10px;
   border-collapse: collapse;
   border: 2px solid black;
@@ -28,9 +28,9 @@ table {
 
 tr, th, td{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  padding: 10px;
-  border: 1px dotted rgb(190, 190, 190);
+  font-size: 12px;
+  padding: 8px;
+  border: 1px dotted rgb(7, 7, 7);
 }
 
 body{

@@ -56,9 +56,11 @@ E) agregando !important tiene maxima prioridad
 body {
     font-family: "Lucida Console", "Courier New", monospace;
     /*background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));*/
-    background-color: rgba(252, 251, 251, 0.301);
+    background-color: #f1f1f1;
     padding: 0;
     margin: 0;
+    font-size: 8;
+    font-size: 0.7rem;
 }
 
 header {
@@ -172,7 +174,7 @@ table{
     border-collapse: collapse;
     border: 0 solid rgb(90, 88, 88);
     letter-spacing: 0px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 td,
@@ -196,7 +198,7 @@ a{
   }
 
 .frase {
-    font-size:medium;
+    font: size medium;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     ;
