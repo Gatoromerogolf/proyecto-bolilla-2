@@ -56,11 +56,10 @@ E) agregando !important tiene maxima prioridad
 body {
     font-family: "Lucida Console", "Courier New", monospace;
     /*background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));*/
-    background-color: #f1f1f1;
+    background-color: #e4e3e3;
     padding: 0;
     margin: 0;
-    font-size: 8;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 header {
@@ -83,7 +82,7 @@ li.barra a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 12px;
+    padding: 10px 10px;
     text-decoration: none;
 }
 
@@ -119,8 +118,8 @@ h3 {
     color: black;
     text-align: center;
     background-color: rgba(71, 134, 71, 0.353);
+    text-decoration: none;
 }
-
 
 div.gallery {
     margin: 1px;
