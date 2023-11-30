@@ -116,9 +116,9 @@ h3 {
 }
 
 #videogaby {
-    color: #060606;
+    color: black;
     text-align: center;
-    background-color: rgb(149, 238, 146);
+    background-color: rgba(71, 134, 71, 0.353);
 }
 
 
