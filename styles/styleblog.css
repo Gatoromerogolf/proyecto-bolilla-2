@@ -99,6 +99,7 @@ h1 {
     background-color: black;
     margin: 0;
     padding: 10px;
+    text-align: center;
     color: #fbfbfd;
 }
 
@@ -113,6 +114,13 @@ h3 {
     padding: 10px;
     color: #051774;
 }
+
+#videogaby {
+    color: #060606;
+    text-align: center;
+    background-color: rgb(149, 238, 146);
+}
+
 
 div.gallery {
     margin: 1px;
