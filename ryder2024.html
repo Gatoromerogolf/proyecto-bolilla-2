@@ -18,6 +18,17 @@
   <meta name="author" content="Sensei">
   <meta name="copyright" content="Meta Inc.">
 
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  <script>
+      $(function () {
+          $("#header").load("encabezado.html");
+          $("#footer").load("piepagina.html");
+      });
+  </script>
   <!--
   <meta http-equiv="refresh" content="2, https://bolilla-negra.netlify.app/">
   <!-- el refresh dispara el destino despues del tiempo indicado (2)-->
@@ -36,6 +47,8 @@
         <li class="barra"><a href="bolilla.html">Anual Bolilla</a></li> 
         <li class="barra"><a class="active" href="ryder2024.html">Ryder</a></li> 
         <li class="barra"><a href="tienda.html">Tienda</a></li> 
+        <li class="barra"><a href="social.html">Sociales</a></li> 
+        
 
       </ul>
     </nav>
@@ -125,14 +138,7 @@
     </table>
     <br><br>
 
-    <footer>
-      <hr>
-      <br>
-      <br>
-      <a href="mailto:ruben.e.garcia@gmail.com">Contactame aquí por mail o</a><br>
-      <a href="tel:+5491141778519">Llamar por teléfono</a>
-      <p>Derechos reservados. &copy;2023</p>
-    </footer>
+    <div id="footer"></div>
 
 </section>
 </body>
