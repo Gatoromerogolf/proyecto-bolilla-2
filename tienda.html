@@ -13,6 +13,17 @@
     <meta name="description" content="Sitio de bolilla">
     <meta name="author" content="Sensei">
     <meta name="copyright" content="Meta Inc.">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  
+    <script>
+        $(function () {
+            $("#header").load("encabezado.html");
+            $("#footer").load("piepagina.html");
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -34,7 +45,6 @@
       <section>
         <br>
         <h1>Nuestra tienda de productos</h1>
-     
     
         <h3>Proximamente nuevos productos</h3>
         <a href="assets/images/tienda/buzo.jpeg" target="_blank"><img src="assets/images/tienda/buzo.jpeg" alt="imagen1" width="305px"></a>
@@ -54,3 +64,7 @@
         <a href="assets/images/tienda/vaso.jpeg" target="_blank"><img src="assets/images/tienda/vaso.jpeg" alt="imagen1" width="305px"></a>
         <br>
         <a href="assets/images/tienda/vasoplast.jpeg" target="_blank"><img src="assets/images/tienda/vasoplast.jpeg" alt="imagen1" width="305px"></a>
+      </section>
+      <div id="footer"></div>
+  </body>
+
