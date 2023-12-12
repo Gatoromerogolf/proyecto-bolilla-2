@@ -54,12 +54,13 @@ E) agregando !important tiene maxima prioridad
 }
 
 body {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: sans-serif;
+    /*font-family: "Lucida Console", "Courier New", monospace;*/
     /*background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));*/
     background-color: #e4e3e3;
     padding: 0;
-    margin: 0;
-    font-size: medium;
+    margin: 1;
+    font-size: 18px;
 }
 
 header {
@@ -95,23 +96,26 @@ li.barra a:hover:not(.active) {
 }
 
 h1 {
-    background-color: black;
+    background-color: rgb(63, 63, 63);
     margin: 0;
     padding: 10px;
     text-align: center;
     color: #fbfbfd;
+    font-size: larger;
 }
 
 h2 {
-    margin: 5x;
-    padding: 10px;
+    margin: 0px;
+    padding: 8px;
     color: #061e94;
+    font-size:large ;
 }
 
 h3 {
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 8px;
     color: #051774;
+    font-size:18px
 }
 
 #ingresositio {
