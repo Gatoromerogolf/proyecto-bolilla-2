@@ -257,13 +257,13 @@ a{
 
 
 .submenu{
-    width:80px;
+    width:78px;
     text-align: center;
-    font-size:12px;
-    color:black;
+    font-size:11px;
+    color:white;
     text-decoration: none;
     margin: 3px;
-    padding: 10px 15px;
+    padding: 8px 10px;
     line-height: 20px;
     background:green;
     display:inline-block;
