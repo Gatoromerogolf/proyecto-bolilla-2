@@ -68,11 +68,26 @@ a[href="#parrafo1"]{
 
 ol{
   color: white;
+  list-style-type:decimal-leading-zero;
+  list-style-position: inside;
 }
+ 
+
 
 ul{
   color: green;
   font-weight: bold;
+  list-style-type: square
+}
+
+ul ul{
+  color: black;
+  list-style-type:lower-alpha ;
+}
+
+ul ul ul {
+  color: blue;
+  list-style-type:upper-alpha;
 }
 
 #checklist{
