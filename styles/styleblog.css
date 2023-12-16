@@ -183,10 +183,11 @@ table{
 
 table{
     border-collapse: collapse;
-    border: 1 solid rgb(90, 88, 88);
+    border: 2px solid black;
     letter-spacing: 0px;
     font-size: 0.9rem;
     margin: 0 auto;
+
 }
 
 td,
