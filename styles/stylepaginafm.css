@@ -1,0 +1,38 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+  background:rgb(247, 202, 24);
+}
+
+header, .main, footer{
+  background: white;
+  width:90%;
+  max-width:1000px;
+  margin:20px auto;
+}
+
+header nav{
+  background-color: rgb(150, 150, 247);
+  overflow: scroll;
+}
+
+/*
+header nav ul li{
+  float:left;
+  list-style: none;
+}
+
+header nav ul li a{
+  padding:10px 20px;
+  display: block;
+  text-decoration: none;
+  color: azure;
+}
+header nav ul li a:hover{
+  background: yellowgreen;
+}*/
+   
