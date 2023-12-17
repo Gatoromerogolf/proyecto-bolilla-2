@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#8f7adas">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#8f7adas">
 
-    <title>Blog de bolilla</title>
-    <link href="assets/images/bn2.ico" rel="icon">
-  
-    <link href="styles/styleblog.css" rel="stylesheet">
+  <title>Blog de bolilla</title>
+  <link href="assets/images/bn2.ico" rel="icon">
 
-    <meta name="keywords" content="golf, palos, pelotas">
-    <meta name="description" content="Sitio de bolilla">
-    <meta name="author" content="Sensei">
-    <meta name="copyright" content="Meta Inc.">
+  <link href="styles/styleblog.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <meta name="keywords" content="golf, palos, pelotas">
+  <meta name="description" content="Sitio de bolilla">
+  <meta name="author" content="Sensei">
+  <meta name="copyright" content="Meta Inc.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <style>
+    /* Estilos para la página */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    /* Estilos para las vistas */
+    .view {
+        display: none;
+    }
+    /* Estilos para la vista activa */
+    .view.active {
+        display: block;
+    }
+  </style>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   
@@ -28,121 +46,232 @@
 
 </head>
 <body>
-    <header>
-        <nav>
-          <ul>
-            <!-- 
-            <a href="index.html" rel="noreferrer">
-              <img src="assets/images/logobolilla.jpeg" width="100" ></a>-->
+  <header>
+    <nav>
+      <ul>
+        <li class="barra"><a href="index.html" rel="noreferrer">
+        <img src="assets/images/logobolilla.jpeg" width="80" style="padding:0px; margin:0px"></a></li>
+        <li class="barra"><a href="inicial.html">Inicio</a></li>
+        <li class="barra"><a href="giras.html">Giras</a></li>
+        <li class="barra"><a href="locales.html">Locales</a></li>
+        <li class="barra"><a href="bolilla.html">Anual</a></li> 
+        <li class="barra"><a href="ryder2024.html">Ryder</a></li> 
+        <li class="barra"><a href="tienda.html">Tienda</a></li> 
+        <li class="barra"><a class="active" href="social.html">Sociales</a></li> 
+      </ul>
+    </nav>
+  </header>
 
-              <li class="barra"><a href="index.html" rel="noreferrer">
-                <img src="assets/images/logobolilla.jpeg" width="80" style="padding:0px; margin:0px"></a></li>
-            <li class="barra"><a href="inicial.html">Inicio</a></li>
-            <li class="barra"><a href="giras.html">Giras</a></li>
-            <li class="barra"><a href="locales.html">Locales</a></li>
-            <li class="barra"><a href="bolilla.html">Anual</a></li> 
-            <li class="barra"><a href="ryder2024.html">Ryder</a></li> 
-            <li class="barra"><a href="tienda.html">Tienda</a></li> 
-            <li class="barra"><a class="active" href="social.html">Sociales</a></li> 
-          </ul>
-        </nav>
-      </header>
+  <section>
+    <h1 id="matriculas">Cumpleaños y jefes</h1>
+    <br>
+    <p class="frase">"Se ve claramente en qué mes cada uno tiene que ofrecer una reunión incluyendo algún menú interesante para compartir en este grupo.  Somos 12 y hay 12 meses.  Alguno tendría que hacerlo días antes o días después."</p>
+    <p style="text-align: right; font-size: 13px">Joaquín Berisso - 2023 (dc)</p>
+    <br>
+  
+    <table>
+      <tr>
+        <th>Nombre</b></td>
+        <th>Cumpleaños</td>
+        <th>El jefe</td>
 
-          
+      </tr>
+        <tr>
+          <td>Negro</td>
+          <td>Enero 12</td>
+          <td>Mariela</td>
+        </tr>
+        <tr>
+          <td>Fer</td>
+          <td>Febrero 18</td>
+          <td>Cristina</td>
+        </tr>
+        <tr>
+          <td>Sensei</td>
+          <td>Abril 10</td>
+          <td>Cecilia</td>  
+
+        </tr>
+        <tr>
+          <td>Diegui</td>
+          <td>Abril 13 15</td>
+          <td>Marcela</td>
+        </tr> 
+
+        <tr>
+          <td>Juancho</td>
+          <td>Mayo 4</td>
+          <td>Sandra</td>
+        </tr>
+        <tr>
+          <td>Torni</td>
+          <td>Junio 24</td>
+          <td>Fernanda</td>
+        </tr> 
+        <tr>
+          <td>Gaby</td>
+          <td>Agosto 1</td>
+          <td>Mirta</td>
+        </tr>
+        <tr>
+          <td>Edu</td>
+          <td>Agosto 4</td>
+          <td>Marcela</td>
+        </tr> 
+        <tr>
+          <td>Joaco</td>
+          <td>Setiembre 6</td>
+          <td>Luciana</td>
+        </tr> 
+        <tr>
+          <td>Presi</td>
+          <td>Octubre 4</td>
+          <td>Gabriela</td>
+        </tr>
+        <tr>
+          <td>Julito</td>
+          <td>Diciembre 9</td>
+          <td>Roxana</td>
+        </tr> 
+        <tr>
+          <td>Panza</td>
+          <td>Diciembre 15</td>
+          <td>Iris</td>
+        </tr>  
+    </table>
+  </section>
+  <br> 
+
+  <section>
+    <ol>
+    <li><h2><a href="#julito">Cumple de Julito</a></h2></li>
+    <li><h2><a href="#panza">Casamiento de Panza</a></h2></li>
+    </ol>
+        <!-- Agrega más enlaces aquí -->
+
+<!-- ------------------------------------------------------>        
+      <!-- Contenido de las vistas -->
+
+    <div class="view" id="julito">
+      <h2>Cumple de Julito.</h2>
+      <h4>Sabado 16 de Diciembre.</h4>
+      <br>
+      <p>Con una semanita de atraso, Julito recibió al grupo.</p>
+      <br>
+      <div style="text-align:center;">
+      <img src="assets/images/Sociales/Julito/1.jpg" alt="" style="width:95%; margin:0">
+      <br>
+      <img src="assets/images/Sociales/Julito/2.jpg" alt="" style="width:95%; margin:0">
+      <br>
+      <p>Torni tenía el diablo en el cuerpo y necesitaba descargar....</p>
+      <video src="assets/images/Sociales/Julito/3.mp4" controls width="95%">
+    </div> </div>
+
+    <div class="view" id="panza">
       <h3>Casamiento de Panza.</h3>
       <h4>Viernes 1 de Diciembre.</h4>
       <br>
       <p>Historia de la pérdida de un amigo, al que siempre recordaremos como el tipo independiente que solía ser.</p>
-     <br>
-      <img src="assets/images/Casapanza.jpeg" alt="Casa Panza" style="width:100%; aspect-ratio: 420/571">
-
-     <br><br>
-      <section>
-        <h4>La previa</h4>
-        <p></p>
-        <br>
-        <p>La inocencia del hombre</p>
-        <p></p>
-
-        <a href="assets/images/sociales/uno.jpeg" target="_blank"><img src="assets/images/sociales/uno.jpeg" style="width:100%; aspect-ratio: 1024/768"></a>
-
-        <br> <br> <br> <br>
-        <p>El terrible momento en que lo perdemos</p>
-        <p></p>
-
-        <a href="assets/images/sociales/dos.jpeg" target="_blank"><img src="assets/images/sociales/dos.jpeg" style="width:100%; aspect-ratio: 960/1280"></a>
-
-        
-        <br> <br> <br> <br>
-        <p>Lo recordaremos siempre</p>
-        <p></p>
-
-        <a href="assets/images/sociales/tres.jpeg" target="_blank"><img src="assets/images/sociales/tres.jpeg" style="width:100%; aspect-ratio: 900/1600"></a>
-
-        <br> <br> <br> <br>
-        <p>El equipo de salvación.</p>
-        <p></p>
-
-        <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/cuatro.jpeg" style="width:100%; aspect-ratio: 1024/461"></a>
-
-        <br> <br> <br> <br>
-        <p>Firulais está triste</p>
-        <p></p>
-
-        <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/cinco.jpeg" style="width:100%; aspect-ratio: 576/1024"></a>
-
-        <br> <br> <br> <br>
-        <p>Los muchachos</p>
-        <p></p>
-
-        <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/seis.jpeg" style="width:100%; aspect-ratio: 1024/576"></a>
-
-        <br> <br> <br> <br>
-        <p>Las chicas</p>
-        <p></p>
-
-        <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/siete.jpeg" style="width:100%; aspect-ratio: 1024/768"></a>
-
-        <br> <br> <br> <br>
-        <p>Julito el grande</p>
-        <p></p>
-
-        <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/ocho.jpeg" style="width:100%; aspect-ratio: 1024/768"></a>
-
-
-        <br> <br> <br> <br>
-        <p>Las familias.  Hermosa foto</p>
-        <p></p>
-
-        <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/diez.jpeg" style="width:100%; aspect-ratio: 1024/768"></a>
-
-
-        <br> <br> <br> <br>
-        <p>Un poquito mejor.</p>
-        <p></p>
-
-        <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/doce.jpeg" style="width:100%; aspect-ratio: 1600/739"></a>
-      </section>
-  
       <br>
-      <hr>  
+      <div style="text-align:center;">
+        <img src="assets/images/Casapanza.jpeg" style="width:90%;"/>
+
+      <br><br>
+
+      <h4>La previa</h4>
+      <p></p>
+      <br>
+      <p>La inocencia del hombre</p>
+      <p></p>
+
+      <a href="assets/images/sociales/uno.jpeg" target="_blank"><img src="assets/images/sociales/uno.jpeg" style="width:95%"></a>
+
+      <br> <br> <br>
+      <p>El terrible momento en que lo perdemos</p>
+      <p></p>
+
+      <a href="assets/images/sociales/dos.jpeg" target="_blank"><img src="assets/images/sociales/dos.jpeg" style="width:95%;"></a>
+
+      <br> <br> <br>
+      <p>Lo recordaremos siempre</p>
+      <p></p>
+
+      <a href="assets/images/sociales/tres.jpeg" target="_blank"><img src="assets/images/sociales/tres.jpeg" style="width:95%; ""></a>
+
+      <br> <br> <br>
+      <p>El equipo de salvación.</p>
+      <p></p>
+
+      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/cuatro.jpeg" style="width:95%;"></a>
+
+      <br> <br> <br>
+      <p>Firulais está triste</p>
+      <p></p>
+
+      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/cinco.jpeg" style="width:95%; "></a>
+
+      <br> <br> <br>
+      <p>Los muchachos</p>
+      <p></p>
+
+      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/seis.jpeg" style="width:95%;"></a>
+      <br> <br> <br>
+      <p>Las chicas</p>
+      <p></p>
+
+      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/siete.jpeg" style="width:95%;"></a>
+
+      <br> <br> <br>
+      <p>Julito el grande</p>
+      <p></p>
+
+      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/ocho.jpeg" style="width:95%;"></a>
+
+      <br> <br> <br>
+      <p>Las familias.  Hermosa foto</p>
+      <p></p>
+
+      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/diez.jpeg" style="width:95%;"></a>
+
+      <br> <br> <br>
+      <p>Un poquito mejor.</p>
+      <p></p>
+
+      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/doce.jpeg" style="width:95%;"></a>
+
+
+      <br>      <hr>      <br>
+
+      <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/1.mp4" controls width="95%"><br>
       <br>
 
-      <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/1.mp4" controls width="305"><br>
-
+      <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/2.mp4" controls width="95%"><br>
       <br>
 
-      <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/2.mp4" controls width="305"><br>
-
+      <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/3.mp4" controls width="95%"><br>
       <br>
 
-      <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/3.mp4" controls width="305"><br>
+      <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/4.mp4" controls width="95%"><br>
+    </div>
+    </div>
 
-      <br>
+         <!-- Agrega más vistas aquí -->
 
-      <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/4.mp4" controls width="305"><br>
+    <script>
+      // Cambiar la vista activa al hacer clic en los enlaces
+      const links = document.querySelectorAll('h2 a');
+      const views = document.querySelectorAll('.view');
 
- 
+      links.forEach(link => {
+          link.addEventListener('click', e => {
+              e.preventDefault();
+              const target = e.target.getAttribute('href').substring(1);
+              views.forEach(view => view.classList.remove('active'));
+              document.getElementById(target).classList.add('active');
+          });
+      });
+  </script>
+
 <body>
     
 </body>
