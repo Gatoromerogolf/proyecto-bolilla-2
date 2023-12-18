@@ -290,3 +290,10 @@ a.submenu:hover{
 a.submenu:active{
     background: #ff8000;
 }
+
+th:nth-child(-n+2),
+td:nth-child(-n+2) {
+  position: sticky;
+  left: 0;
+  background-color: white;
+}
