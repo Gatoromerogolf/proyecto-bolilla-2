@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      /* Estilos para la página */
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: white;
+      }
+      /* Estilos para las vistas */
+      .view {
+          display: none;
+      }
+      /* Estilos para la vista activa */
+      .view.active {
+          display: block;
+      }
+
+
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  
+    <script>
+        $(function () {
+            $("#header").load("encabezado.html");
+            $("#footer").load("piepagina.html");
+        });
+    </script>
+
+</head>
+<body>
+
+<div id="header"></div>   
+
+</p>
+<h1 id="eventos">Tarjetas presentadas</h1>
+
+<hr>  
+
+<section>
+  <ol>
+  <li><h3><a href="#fecha">Detalle por fecha</a></h3></li>
+  <li><h2><a href="#jugador">Detalle por jugador</a></h2></li>
+  </ol>
+      <!-- Agrega más enlaces aquí -->
+
+<!-- ------------------------------------------------------>        
+    <!-- Contenido de las vistas -->
+
+  <div class="view" id="fecha">
+    <h2>Cumple de Julito.</h2>
+    <h4>Sabado 16 de Diciembre.</h4>
+    <br>
+  </div>
+  
+  <div class="view" id="jugador">
+    <h2>Cumple de panza</h2>
+    <h4>Sabado asdasdasdasd16 de Diciembre.</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas fugiat sunt optio suscipit ipsam assumenda incidunt et praesentium veniam nemo nesciunt excepturi illo eius totam harum nostrum, consequatur doloremque nisi.</p>
+    <br>
+  </div>
+
+<div id="footer"></div>   
+
+
+<script>
+  // Cambiar la vista activa al hacer clic en los enlaces
+  const links = document.querySelectorAll('h2 a');
+  const views = document.querySelectorAll('.view');
+
+  links.forEach(link => {
+      link.addEventListener('click', e => {
+          e.preventDefault();
+          const target = e.target.getAttribute('href').substring(1);
+          views.forEach(view => view.classList.remove('active'));
+          document.getElementById(target).classList.add('active');
+      });
+  });
+</script>
+  
+</body>
+</html>
