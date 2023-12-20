@@ -101,11 +101,12 @@ li.barra a:hover:(.active) {
 
 h1 {
     background-color: rgb(63, 63, 63);
-    margin: 0;
+    margin: 10;
     padding: 10px;
     text-align: center;
     color: #fbfbfd;
     font-size: larger;
+    margin-bottom: 5px;
 }
 
 h2 {
@@ -122,6 +123,26 @@ h3 {
     font-size:18px
 }
 
+hr {
+    width: 70%;
+    height: 2px;
+    background-color: gray;
+    margin: 10px auto;
+    margin-top: 10px;
+  }
+
+.noticia{
+    margin-bottom: 10px;
+}
+#listacolores{
+    background-color: #e4e3e3;
+}
+#listacolores li{
+    display:inline-flex;
+    padding:8px;
+    font-size: 15px;
+    color:white;
+}
 #ingresositio {
     color: white !important;
     text-align: center;
