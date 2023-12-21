@@ -7,15 +7,14 @@ black sería el valor de respaldo
 
 PRIORIDAD EN LOS ESTILOS
 
-/*  se da prioridad al estilo más específico EJ: el estilo de un <li> es más importante que el del <ol>
-Es más importante el selector de clase sobre selector de tipo
+/*  Prioridad al más específico::
 
 Selectores de tipo
-selecciona elementos que coinciden con el nombre del elemento
+Coinciden con el nombre del elemento
 Ej: h1{} ; input{}, se aplicará a cualquier elemento  <input>
 
 Selectores de clase
-seleciona elementos que contienen el atributo de class 
+Contienen el atributo de class 
 Ej: .index {} selecciona ls que tengan la clase  "index"
 
 Selectores de ID
@@ -46,6 +45,11 @@ E) agregando !important tiene maxima prioridad
 .texto-azul {
   color: blue !important
 }
+
+De mayor a menor importancia:
+html(en linea) >> !important >> id  >>  clase >>  tipo  (li >> ul)
+id=" ";  class=" "; a -  tr --ul etc
+#identif;   .clase;    tr;
 */
 
 
@@ -55,8 +59,6 @@ E) agregando !important tiene maxima prioridad
 
 body {
     font-family: sans-serif;
-    /*font-family: "Lucida Console", "Courier New", monospace;*/
-    /*background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));*/
     background-color: #e4e3e3;
     padding: 0;
     margin: 1;
@@ -66,6 +68,51 @@ body {
 header {
     text-align: center;
 }
+
+#matriculas{
+
+    padding: 10px 0px 25px 25px;
+    margin-bottom:30px;
+}
+
+
+h1 {
+    background-color: rgb(63, 63, 63);
+    margin: 10;
+    padding: 10px;
+    text-align: center;
+    color: #fbfbfd;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 8px;
+    color: #061e94;
+    font-size:large ;
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #051774;
+    font-size:18px
+}
+
+hr {
+    width: 90%;
+    height: 2px;
+    background-color: gray;
+    margin: 10px auto;
+    margin-top: 10px;
+  }
+
+.noticia{
+    padding: 10px;
+  }
 
 ul {
     list-style-type: none;
@@ -98,38 +145,6 @@ li.barra a:hover:(.active) {
 .active {
     background-color: #04AA6D;
 }
-
-h1 {
-    background-color: rgb(63, 63, 63);
-    margin: 10;
-    padding: 10px;
-    text-align: center;
-    color: #fbfbfd;
-    font-size: larger;
-    margin-bottom: 5px;
-}
-
-h2 {
-    margin: 0px;
-    padding: 8px;
-    color: #061e94;
-    font-size:large ;
-}
-
-h3 {
-    margin: 0px;
-    padding: 8px;
-    color: #051774;
-    font-size:18px
-}
-
-hr {
-    width: 70%;
-    height: 2px;
-    background-color: gray;
-    margin: 10px auto;
-    margin-top: 10px;
-  }
 
 .noticia{
     margin-bottom: 10px;
@@ -208,11 +223,10 @@ table{
 
 table{
     border-collapse: collapse;
-    border: 2px solid black;
+    border: 3px solid black;
     letter-spacing: 0px;
     font-size: 0.9rem;
     margin: 0 auto;
-
 }
 
 td,
