@@ -227,6 +227,12 @@ th{
     background-color: #c2cff8c9;
 }
 
+
+.tabtor tr:nth-of-type(odd){
+    background-color: #c7c5c5;
+}
+
+}
 #mat{
     text-align:right;
 }
