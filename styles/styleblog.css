@@ -122,6 +122,7 @@ ul {
     background-color: #464545;
 }
 
+
 li.barra {
     float: left;
 }
@@ -140,6 +141,18 @@ li.barra a:hover:not(.active) {
 
 li.barra a:hover:(.active) {
     background-color: #04AA6D;
+}
+
+ul.desorder{
+    list-style-type: square;
+    margin: 5;
+    padding: 5;
+    overflow: hidden;
+    background-color: #e4e3e3;
+}
+
+li.lisdesor1{
+    list-style-type: square;
 }
 
 .active {
