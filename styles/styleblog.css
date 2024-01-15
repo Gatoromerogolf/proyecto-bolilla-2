@@ -267,7 +267,7 @@ table{
     margin: 0 auto;
 }
 
-.cumple{
+.cumple .tabapertura{
     border-collapse: collapse;
     border: 3px solid black;
     letter-spacing: 0px;
@@ -398,8 +398,8 @@ a{
     text-decoration: none;
     margin: 3px;
     padding: 5px 10px;
-    line-height: 20px;
-    background:green;
+    line-height: 30px;
+    background:rgb(107, 104, 167);
     display:inline-block;
     box-shadow:2px 5px 0px #000;
     border-radius: 10%;
@@ -422,4 +422,20 @@ a.submenu:active{
 
 .view{
     background-color: #e4e3e3;
+}
+
+
+.submenu2{
+    width:70px;
+    text-align: center;
+    font-size:12px;
+    color:white;
+    text-decoration: none;
+    margin: 3px;
+    padding: 5px 10px;
+    line-height: 25px;
+    background:rgb(35, 101, 56);
+    display:inline-block;
+    box-shadow:2px 5px 0px #000;
+    border-radius: 10%;
 }
