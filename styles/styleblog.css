@@ -267,6 +267,14 @@ table{
     margin: 0 auto;
 }
 
+.cumple{
+    border-collapse: collapse;
+    border: 3px solid black;
+    letter-spacing: 0px;
+    font-size: 0.7rem;
+    margin: 0 auto;
+}
+
 td,
 th{
     border-collapse: collapse;
