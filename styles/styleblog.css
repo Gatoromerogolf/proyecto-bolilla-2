@@ -426,7 +426,7 @@ a.submenu:active{
 
 
 .submenu2{
-    width:70px;
+    width:68px;
     text-align: center;
     font-size:12px;
     color:white;
@@ -434,7 +434,7 @@ a.submenu:active{
     margin: 3px;
     padding: 5px 10px;
     line-height: 25px;
-    background:rgb(35, 101, 56);
+    background:rgb(90, 161, 112);
     display:inline-block;
     box-shadow:2px 5px 0px #000;
     border-radius: 10%;
