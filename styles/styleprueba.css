@@ -87,7 +87,9 @@ td {
     height:100px;
     background: blue;
     font-size: 30px;
-    /*float:left;*/
+    float:left;
+    padding: 10px;
+    margin: 10px;
 /*con float right van para el otro lado*/
 }
 

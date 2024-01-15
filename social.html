@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,247 +21,399 @@
   <style>
     /* Estilos para la página */
     body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: white;
     }
+
     /* Estilos para las vistas */
     .view {
-        display: none;
+      display: none;
     }
+
     /* Estilos para la vista activa */
     .view.active {
-        display: block;
+      display: block;
     }
   </style>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  
-    <script>
-        $(function () {
-            $("#header").load("encabezado.html");
-            $("#footer").load("piepagina.html");
-        });
-    </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(function () {
+      $("#header").load("encabezado.html");
+      $("#footer").load("piepagina.html");
+    });
+  </script>
 
 </head>
+
 <body>
   <div id="header"></div>
 
   <section>
     <h1 id="matriculas">Sociales</h1>
     <h2>Cumpleaños y Jefes</h2>
-    <p class="frase">"Se ve claramente en qué mes cada uno tiene que ofrecer una reunión incluyendo algún menú interesante para compartir en este grupo.  Somos 12 y hay 12 meses.  Alguno tendría que hacerlo días antes o días después."</p>
+    <p class="frase">"Se ve claramente en qué mes cada uno tiene que ofrecer una reunión incluyendo algún menú
+      interesante para compartir en este grupo. Somos 12 y hay 12 meses. Alguno tendría que hacerlo días antes o días
+      después."</p>
     <p style="text-align: right; font-size: 13px">Joaquín Berisso - 2023 (dc)</p>
     <br>
-  
+
     <table>
       <tr>
-        <th>Nombre</b></td>
-        <th>Cumpleaños</td>
-        <th>El jefe</td>
+        <th>Nombre</th>
+        <th>Cumple</th>
+        <th>El jefe</th>
+        <th></th>
+        <th>Nombre</th>
+        <th>Cumple</th>
+        <th>El jefe</th>
+      </tr>
+      <tr>
+        <td>Negro</td>
+        <td>Ene 12</td>
+        <td>Mariela</td>
+        <td></td>
+        <td>Gaby</td>
+        <td>Ago 1</td>
+        <td>Mirta</td>
+        </tr>
+      <tr>
+        <td>Fer</td>
+        <td>Feb 18</td>
+        <td>Cristina</td>
+        <td></td>
+        <td>Edu</td>
+        <td>Ago 4</td>
+        <td>Marcela</td>
+        </tr>
+      <tr>
+        <td>Sensei</td>
+        <td>Abr 10</td>
+        <td>Cecilia</td>
+        <td></td>
+        <td>Joaco</td>
+        <td>Set 6</td>
+        <td>Luciana</td>
 
       </tr>
-        <tr>
-          <td>Negro</td>
-          <td>Enero 12</td>
-          <td>Mariela</td>
-        </tr>
-        <tr>
-          <td>Fer</td>
-          <td>Febrero 18</td>
-          <td>Cristina</td>
-        </tr>
-        <tr>
-          <td>Sensei</td>
-          <td>Abril 10</td>
-          <td>Cecilia</td>  
+      <tr>
+        <td>Diegui</td>
+        <td>Abr 13/5</td>
+        <td>Marcela</td>
+        <td></td>
+        <td>Presi</td>
+        <td>Oct 4</td>
+        <td>Gabriela</td>
+      </tr>
 
-        </tr>
-        <tr>
-          <td>Diegui</td>
-          <td>Abril 13 15</td>
-          <td>Marcela</td>
-        </tr> 
-
-        <tr>
-          <td>Juancho</td>
-          <td>Mayo 4</td>
-          <td>Sandra</td>
-        </tr>
-        <tr>
-          <td>Torni</td>
-          <td>Junio 24</td>
-          <td>Fernanda</td>
-        </tr> 
-        <tr>
-          <td>Gaby</td>
-          <td>Agosto 1</td>
-          <td>Mirta</td>
-        </tr>
-        <tr>
-          <td>Edu</td>
-          <td>Agosto 4</td>
-          <td>Marcela</td>
-        </tr> 
-        <tr>
-          <td>Joaco</td>
-          <td>Setiembre 6</td>
-          <td>Luciana</td>
-        </tr> 
-        <tr>
-          <td>Presi</td>
-          <td>Octubre 4</td>
-          <td>Gabriela</td>
-        </tr>
-        <tr>
-          <td>Julito</td>
-          <td>Diciembre 9</td>
-          <td>Roxana</td>
-        </tr> 
-        <tr>
-          <td>Panza</td>
-          <td>Diciembre 15</td>
-          <td>Iris</td>
-        </tr>  
+      <tr>
+        <td>Juancho</td>
+        <td>May 4</td>
+        <td>Sandra</td>
+        <td></td>
+        <td>Julito</td>
+        <td>Dic 9</td>
+        <td>Roxana</td>
+      </tr>
+      <tr>
+        <td>Torni</td>
+        <td>Jun 24</td>
+        <td>Fernanda</td>
+        <td></td>
+        <td>Panza</td>
+        <td>Dic 15</td>
+        <td>Iris</td>
+      </tr>
     </table>
   </section>
-  <br> 
+  <br>
 
   <h2>Eventos</h1>
 
-  <section>
-    <ol>
-    <li><h2><a href="#julito">Cumple de Julito</a></h2></li>
-    <li><h2><a href="#panza">Casamiento de Panza</a></h2></li>
-    </ol>
-        <!-- Agrega más enlaces aquí -->
+    <section>
+      <ol>
+        <li>
+          <h2><a href="#pretempo">Pretemporada 2024 en la Costa</a></h2>
+        </li>
+        <li>
+          <h2><a href="#negro">Cumple del Negro</a></h2>
+        </li>
+        <li>
+          <h2><a href="#julito">Cumple de Julito</a></h2>
+        </li>
+        <li>
+          <h2><a href="#panza">Casamiento de Panza</a></h2>
+        </li>
+      </ol>
+      <!-- Agrega más enlaces aquí -->
 
-<!-- ------------------------------------------------------>        
+      <!-- ------------------------------------------------------>
       <!-- Contenido de las vistas -->
+  
+       <!-- ----------- Retemporada 2024--------------------->     
+       <div class="view" id="pretempo">
+        <h2>Pretenporada 2024 en la Costa.</h2>
+        <br>
+        <p>Algunos integrantes de bolilla pudieron realizar una pretemporada en la Costa Atlantica, preparándose para las largas competencias del 2024.</p>
+        <p>Como era de esperar, se llevaron los primeros puestos en las competencias locales</p>
+        <br>
+        <div style="text-align:center;">
+          <img src="assets/images/Sociales/pretempo/00.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/pretempo/01.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <video src="assets/images/Sociales/pretempo/02.mp4" controls width="95%"
+          margin:0"></video>
+          <br>
+          <video src="assets/images/Sociales/pretempo/03.mp4" controls width="95%"
+          margin:0"></video>
+          <br>
+          <video src="assets/images/Sociales/pretempo/04.mp4" controls width="95%"
+          margin:0"></video>
+          <br>
+          <img src="assets/images/Sociales/pretempo/1.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/pretempo/2.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <video src="assets/images/Sociales/pretempo/3.mp4" controls width="95%"
+          margin:0"></video>
+          <br>
+          <video src="assets/images/Sociales/pretempo/4.mp4" controls width="95%"
+          margin:0"></video>
+          <br>
+          <video src="assets/images/Sociales/pretempo/5.mp4" controls width="95%"
+          margin:0"></video>
+          <br>
+          <img src="assets/images/Sociales/pretempo/6.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/pretempo/7.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/pretempo/8.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/pretempo/9.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/pretempo/10.jpg" alt="" style="width:95%; margin:0">
 
-    <div class="view" id="julito">
-      <h2>Cumple de Julito.</h2>
-      <h4>Sabado 16 de Diciembre.</h4>
-      <br>
-      <p>Con una semanita de atraso, Julito recibió al grupo.</p>
-      <br>
-      <div style="text-align:center;">
-      <img src="assets/images/Sociales/Julito/1.jpg" alt="" style="width:95%; margin:0">
-      <br>
-      <img src="assets/images/Sociales/Julito/2.jpg" alt="" style="width:95%; margin:0">
-      <br>
-      <p>Torni tenía el diablo en el cuerpo y necesitaba descargar....</p>
-      <video src="assets/images/Sociales/Julito/3.mp4" controls width="95%">
-    </div> </div>
+          <br>
+          <img src="assets/images/Sociales/pretempo/12.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/pretempo/13.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <video src="assets/images/Sociales/pretempo/14.mp4" controls width="95%"
+          margin:0"></video>
 
-    <div class="view" id="panza">
-      <h3>Casamiento de Panza.</h3>
-      <h4>Viernes 1 de Diciembre.</h4>
-      <br>
-      <p>Historia de la pérdida de un amigo, al que siempre recordaremos como el tipo independiente que solía ser.</p>
-      <br>
-      <div style="text-align:center;">
-        <img src="assets/images/Casapanza.jpeg" style="width:90%;"/>
 
-      <br><br>
 
-      <h4>La previa</h4>
-      <p></p>
-      <br>
-      <p>La inocencia del hombre</p>
-      <p></p>
 
-      <a href="assets/images/sociales/uno.jpeg" target="_blank"><img src="assets/images/sociales/uno.jpeg" style="width:95%"></a>
 
-      <br> <br> <br>
-      <p>El terrible momento en que lo perdemos</p>
-      <p></p>
 
-      <a href="assets/images/sociales/dos.jpeg" target="_blank"><img src="assets/images/sociales/dos.jpeg" style="width:95%;"></a>
 
-      <br> <br> <br>
-      <p>Lo recordaremos siempre</p>
-      <p></p>
 
-      <a href="assets/images/sociales/tres.jpeg" target="_blank"><img src="assets/images/sociales/tres.jpeg" style="width:95%; ""></a>
+
+       <!-- ----------- Cumple del Negro--------------------->     
+
+      <div class="view" id="negro">
+        <h2>Cumple del Negro.</h2>
+        <h4>Viernes 12 de Enero.</h4>
+        <br>
+        <p>Gracias a una gentileza de Torni & Fer, y con la anuencia de todo Bolilla, el negro utilizó la sede Cariló para recibir a los integrantes de Bolilla que anduviesen por la costa.</p>
+        <p>Se espera un reunión adicional, de no tanto esplendor, para compartir con los integrantes que no pudieron asistir a la Costa Atlántica</p>
+        <br>
+        <div style="text-align:center;">
+          <img src="assets/images/Sociales/cpnegro/1.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/cpnegro/2.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/cpnegro/3.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/cpnegro/4.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/cpnegro/5.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/cpnegro/6.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/cpnegro/7.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/cpnegro/8.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/cpnegro/9.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/cpnegro/10.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/cpnegro/11.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/cpnegro/12.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/cpnegro/13.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/cpnegro/14.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <video src="assets/images/Sociales/cpnegro/15.mp4" controls width="95%"
+            margin:0"></video>
+          <br>
+          <video src="assets/images/Sociales/cpnegro/16.mp4" controls width="95%"
+            margin:0"></video>
+          <br>
+          <video src="assets/images/Sociales/cpnegro/17.mp4" controls width="95%"      margin:0"></video>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <!-- ----------- Cumple Julieto--------------------->  
+
+      <div class="view" id="julito">
+        <h2>Cumple de Julito.</h2>
+        <h4>Sabado 16 de Diciembre.</h4>
+        <br>
+        <p>Con una semanita de atraso, Julito recibió al grupo.</p>
+        <br>
+        <div style="text-align:center;">
+          <img src="assets/images/Sociales/Julito/1.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <img src="assets/images/Sociales/Julito/2.jpg" alt="" style="width:95%; margin:0">
+          <br>
+          <p>Torni tenía el diablo en el cuerpo y necesitaba descargar....</p>
+          <video src="assets/images/Sociales/Julito/3.mp4" controls width="95%">
+        </div>
+      </div>
+
+      <div class="view" id="panza">
+        <h3>Casamiento de Panza.</h3>
+        <h4>Viernes 1 de Diciembre.</h4>
+        <br>
+        <p>Historia de la pérdida de un amigo, al que siempre recordaremos como el tipo independiente que solía ser.</p>
+        <br>
+        <div style="text-align:center;">
+          <img src="assets/images/Casapanza.jpeg" style="width:90%;" />
+
+          <br><br>
+
+          <h4>La previa</h4>
+          <p></p>
+          <br>
+          <p>La inocencia del hombre</p>
+          <p></p>
+
+          <a href="assets/images/sociales/uno.jpeg" target="_blank"><img src="assets/images/sociales/uno.jpeg"
+              style="width:95%"></a>
+
+          <br> <br> <br>
+          <p>El terrible momento en que lo perdemos</p>
+          <p></p>
+
+          <a href="assets/images/sociales/dos.jpeg" target="_blank"><img src="assets/images/sociales/dos.jpeg"
+              style="width:95%;"></a>
+
+          <br> <br> <br>
+          <p>Lo recordaremos siempre</p>
+          <p></p>
+
+          <a href="assets/images/sociales/tres.jpeg" target="_blank"><img src="assets/images/sociales/tres.jpeg"
+              style="width:95%; ""></a>
 
       <br> <br> <br>
       <p>El equipo de salvación.</p>
       <p></p>
 
-      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/cuatro.jpeg" style="width:95%;"></a>
+      <a href=" assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/cuatro.jpeg"
+              style="width:95%;"></a>
 
-      <br> <br> <br>
-      <p>Firulais está triste</p>
-      <p></p>
+          <br> <br> <br>
+          <p>Firulais está triste</p>
+          <p></p>
 
-      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/cinco.jpeg" style="width:95%; "></a>
+          <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/cinco.jpeg"
+              style="width:95%; "></a>
 
-      <br> <br> <br>
-      <p>Los muchachos</p>
-      <p></p>
+          <br> <br> <br>
+          <p>Los muchachos</p>
+          <p></p>
 
-      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/seis.jpeg" style="width:95%;"></a>
-      <br> <br> <br>
-      <p>Las chicas</p>
-      <p></p>
+          <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/seis.jpeg"
+              style="width:95%;"></a>
+          <br> <br> <br>
+          <p>Las chicas</p>
+          <p></p>
 
-      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/siete.jpeg" style="width:95%;"></a>
+          <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/siete.jpeg"
+              style="width:95%;"></a>
 
-      <br> <br> <br>
-      <p>Julito el grande</p>
-      <p></p>
+          <br> <br> <br>
+          <p>Julito el grande</p>
+          <p></p>
 
-      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/ocho.jpeg" style="width:95%;"></a>
+          <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/ocho.jpeg"
+              style="width:95%;"></a>
 
-      <br> <br> <br>
-      <p>Las familias.  Hermosa foto</p>
-      <p></p>
+          <br> <br> <br>
+          <p>Las familias. Hermosa foto</p>
+          <p></p>
 
-      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/diez.jpeg" style="width:95%;"></a>
+          <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/diez.jpeg"
+              style="width:95%;"></a>
 
-      <br> <br> <br>
-      <p>Un poquito mejor.</p>
-      <p></p>
+          <br> <br> <br>
+          <p>Un poquito mejor.</p>
+          <p></p>
 
-      <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/doce.jpeg" style="width:95%;"></a>
+          <a href="assets/images/sociales/cuatro.jpeg" target="_blank"><img src="assets/images/sociales/doce.jpeg"
+              style="width:95%;"></a>
 
 
-      <br>      <hr>      <br>
+          <br>
+          <hr> <br>
 
-      <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/1.mp4" controls width="95%"><br>
-      <br>
+          <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/1.mp4" controls
+              width="95%"><br>
+              <br>
 
-      <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/2.mp4" controls width="95%"><br>
-      <br>
+              <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/2.mp4" controls
+                  width="95%"><br>
+                  <br>
 
-      <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/3.mp4" controls width="95%"><br>
-      <br>
+                  <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/3.mp4"
+                      controls width="95%"><br>
+                      <br>
 
-      <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/4.mp4" controls width="95%"><br>
-    </div>
-    </div>
+                      <a href="assets/videos/sociales/1.mp4" target="_blank"><video src="assets/videos/sociales/4.mp4"
+                          controls width="95%"><br>
+        </div>
+      </div>
 
-         <!-- Agrega más vistas aquí -->
+      <!-- Agrega más vistas aquí -->
 
-    <script>
-      // Cambiar la vista activa al hacer clic en los enlaces
-      const links = document.querySelectorAll('h2 a');
-      const views = document.querySelectorAll('.view');
+      <script>
+        // Cambiar la vista activa al hacer clic en los enlaces
+        const links = document.querySelectorAll('h2 a');
+        const views = document.querySelectorAll('.view');
 
-      links.forEach(link => {
+        links.forEach(link => {
           link.addEventListener('click', e => {
-              e.preventDefault();
-              const target = e.target.getAttribute('href').substring(1);
-              views.forEach(view => view.classList.remove('active'));
-              document.getElementById(target).classList.add('active');
+            e.preventDefault();
+            const target = e.target.getAttribute('href').substring(1);
+            views.forEach(view => view.classList.remove('active'));
+            document.getElementById(target).classList.add('active');
           });
-      });
-  </script>
+        });
+      </script>
 
-<body>
-    
-</body>
+      <body>
+
+      </body>
+
 </html>

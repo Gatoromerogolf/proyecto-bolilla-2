@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#8f7adas">
+  <meta name="keywords" content="golf, palos, pelotas">
+  <meta name="description" content="Sitio de bolilla">
+  <meta name="author" content="Sensei">
+  <meta name="copyright" content="Meta Inc.">
+
+  <title>Blog de bolilla</title>
+  <link href="assets/images/bn2.ico" rel="icon">
+  <link rel="stylesheet" href="styles/styleblog.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  
+  <script>
+    $(function () {
+        $("#header").load("encabezado.html");
+        $("#footer").load("piepagina.html");
+    });
+  </script>
+
+  <script src="js/saludo.js"></script>
+
+</head>
+
+<body>
+
+  <div id="header"></div>
+
+  <section>
+    <a class="submenu" href="#eventos">Agenda</a>
+    <a class="submenu" href="#ranking">Ranking</a>
+    <a class="submenu" href="#medallero">Medallero</a>
+    <a class="submenu" href="#reflexiones">Reflexiones</a>
+    <a class="submenu" href="#habeas">Habeas Corp</a>
+  </section> 
+
+  <br>
+
+  <section>
+    <fieldset id="matriculas">
+      <legend>Matrículas</legend>
+      <table>
+        <tr>
+          <td>
+            <p>Diegui</p>
+            <p>38.534</p>
+          </td>
+
+          <td>
+            <p>Edu</p>
+            <p>93.293</p>
+          </td>
+
+          <td>
+            <p>Fer</p>
+            <p>126.578</p>
+          </td>
+
+          <td>
+            <p>Gaby</p>
+            <p>119.817</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Joaco</p>
+            <p>119.807</p>
+          </td>
+          
+          <td>
+            <p>Juancho</p>
+            <p>119.811</p>
+          </td>
+
+          <td>
+            <p>Julito</p>
+            <p>87.561</p>
+          </td>
+
+          <td>
+            <p>Negro</p>
+            <p>136.262</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Panza</p>
+            <p>114.566</p>
+          </td>
+
+          <td>
+            <p>Presi</p>
+            <p>89.474</p>
+          </td>
+
+          <td>
+            <p>Sensei</p>
+            <p>97.189</p>
+          </td>
+
+          <td>
+            <p>Torni</p>
+            <p>122.252</p>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+
+    <!----------- --     AGENDA    ------------->
+
+    <h1 id="eventos">Calendario 2024</h1>
+
+     <p>Nuevo esquema con siete (7) competencias premiables y una clasificación final por acumulación de puntos obtenidos en los diversos torneos.</p>
+    <br>
+    <p>Distribución de premios en pelotas nuevas, pelotas con experiencia homologadas por la Comisión y puntos para el ranking Fedex.</p>
+    <br>
+    <table style="width: 300x; position: relative;">
+      <colgroup>
+        <col style="background-color: rgb(221, 229, 107)";>
+      </colgroup>
+  
+      <tr>
+        <th rowspan="2" style="width: 20px; position:sticky; left:0;">Torneo</th>
+        <th colspan="2">Pelotas</th>
+        <th colspan="7">Puntos Fedex</th>
+      </tr>
+
+      <tr>
+        <th style="width: 20px">0 Km</th>
+        <th style="width: 20px">100 Km</th>
+        <th style="width: 20px">Tot</th>
+        <th style="width: 5px;">1°</th>
+        <th style="width: 20px">2°</th>
+        <th style="width: 20px">3°</th>
+        <th style="width: 5px;">4°</th>
+        <th style="width: 20px">5°</th>
+        <th style="width: 20px">6°</th>
+      </tr>
+  
+      <tr>
+        <td style="width: 20px; position:sticky; left:0;">Tandil</td>
+        <td>6</td>
+        <td>24</td>
+        <td>60</td>
+        <td>20</td>
+        <td>15</td>
+        <td>10</td>
+        <td>8</td>
+        <td>5</td>
+        <td>2</td>
+      </tr>
+  
+      <tr>
+        <td style="width: 20px; position:sticky; left:0;">Ryder</td>
+        <td>6</td>
+        <td>30</td>
+        <td>60</td>
+        <td>10</td>
+        <td>10</td>
+        <td>10</td>
+        <td>10</td>
+        <td>10</td>
+        <td>10</td>
+      </tr>
+
+      <tr>
+        <td style="width: 20px; position:sticky; left:0;">Apertura</td>
+        <td>3</td>
+        <td>30</td>
+        <td>90</td>
+        <td>35</td>
+        <td>25</td>
+        <td>12</td>
+        <td>9</td>
+        <td>6</td>
+        <td>3</td>
+      </tr>
+
+      <tr>
+        <td style="width: 20px; position:sticky; left:0;">Clausura</td>
+        <td>3</td>
+        <td>30</td>
+        <td>90</td>
+        <td>35</td>
+        <td>25</td>
+        <td>12</td>
+        <td>9</td>
+        <td>6</td>
+        <td>3</td>
+      </tr>
+
+      <tr>
+        <td style="width: 20px; position:sticky; left:0;">Carilo</td>
+        <td>6</td>
+        <td>24</td>
+        <td>60</td>
+        <td>20</td>
+        <td>15</td>
+        <td>10</td>
+        <td>8</td>
+        <td>5</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td style="width: 20px; position:sticky; left:0;">Bolilla 24</td>
+        <td>3</td>
+        <td>18</td>
+        <td>40</td>
+        <td>25</td>
+        <td>15</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+
+      <tr>
+        <td style="width: 20px; position:sticky; left:0;">Sábado Jet</td>
+        <td>-</td>
+        <td>-</td>
+        <td>12</td>
+        <td>6</td>
+        <td>4</td>
+        <td>2</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+
+      <tr>
+        <td style="width: 20px; position:sticky; left:0;">Fedex</td>
+        <td>9</td>
+        <td>-</td>
+      </tr>
+
+      <tr>
+        <td style="width: 20px; position:sticky; left:0;">TOTAL</td>
+        <td>36</td>
+        <td>156</td>
+      </tr>
+    </table>
+    <br
+    <p style="font-size: 15px"><a href="locales.html">Ver detalle de cada competencia acá o en la sección Torneos.</a></p>
+
+    <br>
+
+    <h4>Pelotas 0 Km.</h4>
+    <p>Las pelotas nuevas que se entregarán como premio son Wilson Duo Soft:</p>
+
+    <img src="assets/images/wilsonbig.png" width="300px">
+
+    <p>La pelota de golf más suave del mundo.</p>
+    <p>Ha sido diseñada para brindar la distancia que necesita, la sensación que ama y la consistencia que exige.</p>
+    <br>
+
+    <h4>Pelotas homologadas.</h4>
+    <p>Las pelotas experimentadas son analizadas y testeadas en profundidad por la Subcomisión de tecnología de la Comisión de Todo, lo que garantiza que superen satisfactoriamente el nivel de calidad exigido por este grupo de alta gama.</p>
+    <br>
+
+    <h4>Aranceles de Inscripción.</h4>
+    <p>La participación obligatoria en las actividades de este calendario requieren de una inscripción compulsiva de cada miembro, abonando un valor de $15.000 (válidos hasta el 5 de enero 2024).  Después Dios dirá.</p>
+    <br>
+    <p>Esta recaudación permitirá adquirir los premios con este detalle.</p>
+    <div>
+      <ul class="desorder">
+        <li class="lisdesor1">36 x Wilson DUO soft: $99.990</li>
+        <li class="lisdesor1">160 carozos x 500 : $80.000</li>
+        <li class="lisdesor1">Total: $180.000</li>
+        <li class="lisdesor1">Individual: 180.000/12 = $15.000.-</li>
+      </ul>
+    </div>
+    <br>
+    <hr>
+    <br>
+      <!-----------  renovacion autoridades ------>
+
+    <h1 id="eventos">Renovación de Autoridades</h1>
+
+    <p>Acá, a los 2 dias del año 2024 libertario, se convoca a elecciones para renovación de las autoridades de la Comisión de Todo y sus Subcomisiones.</p>
+    <br>
+    <p>Hasta el momento se ha presentado la lista "JUVENTUD, HONESTIDAD Y FUTURO" que va por su reelección, con importantes cambios en sus puestos directivos.</p>
+    <br>
+    <p>La propuesta de autoridades en esta lista es la siguiente:</p>
+      <ol>
+        <li>Presidente:  Juancho Allende</li>
+        <li>Vicepresidente: Sensei García</li>
+        <li>Tesorero: Sandra Furlan</li>
+        <li>Secretario General: Cecilia Chiappari</li>
+      </ol>
+    <br>
+    <p>Resulta evidente que en esta lista se respeta la distribución por género de los cargos ejecutivos.</p>
+    <br>
+    <hr>
+    <br>
+
+
+   <!----------- --    RANKING    ------------->
+    
+  <h1 id="ranking">Ranking 2024</h1>
+  <br>
+  <p>Se considerarán las 8 mejores tarjetas presentadas entre el 1 de febrero de 2024 y el fin de semana anterior a la fecha que se establezca para la última gira del año.</p><br>
+  <p>Como resultado de las posiciones finales en este Ranking, se establecerá la primera ronda de competencias Match por el torneo Bolilla 24:  1° vs 12°; 2° vs 11°, etc.</p>
+  <br>
+    
+  <table style="width: 300x; position: relative;">
+
+    <colgroup>
+      <col style="background-color: rgb(221, 229, 107)";>
+    </colgroup>
+
+    <tr>
+      <th style="width: 20px; position:sticky; left:0;">Nombre</th>
+      <th style="width: 5px;">Ptos</th>
+      <th style="width: 20px">1</th>
+      <th style="width: 20px">2</th>
+      <th style="width: 20px">3</th>
+      <th style="width: 20px">4</th>
+      <th style="width: 20px">5</th>
+      <th style="width: 20px">6</th>
+    </tr>
+
+    <tr>
+      <td style="width: 20px; position:sticky; left:0;">Diegui</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Edu</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Fer</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Gaby</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Joaco</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Juancho</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Julito</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Negro</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Panza</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Presi</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Sensei</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Torni</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+
+  <br>
+  <p style="font-size: 14px"><a href="locales.html#ranking">Ver acá detalle de fechas y resultados.</a></p>
+  </section>
+    
+  <br><br>
+
+   <!------------------ --     MEDALLERO   ------- ------------->
+<section>
+<h1 id="medallero">Medallero</h1>
+
+<h3>- Torneos semanales 2024</h3>
+<!-- <div style="width:300px; height: 530px; overflow-x: scroll;">-->
+  <table style="width: 300px;"">
+    <colgroup>
+      <col style="background-color: rgb(248, 248, 130)";>
+      <col style="width: 20px;";>
+      <col style="width: 20px;";>
+      <col style="width: 20px;";>
+      <col style="width: 20px;";>
+    </colgroup>
+
+    <tr>
+      <th rowspan="2">Player</th>
+      <th colspan="4">Medallas</th>
+      <th rowspan="2">Tarj.</th>
+      <th rowspan="2">Score promedio</th>
+    </tr>
+
+    <tr>
+      <th>Total</th>
+      <th>1*</th>
+      <th>2*</th>
+      <th>3*</th>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Diegui</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Edu</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Fer</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Gaby</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Joaco</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Juancho</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Julito</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Negro</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Panza</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Presi</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Sensei</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      </tr>
+    <tr>
+      <td style="width: 5px; position:sticky; left:0;">Torni</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <br>
+  <p style="font-size: 13px"><a href="locales.html#ranking">Ver detalle de fechas y resultados</a></p>
+  </section>
+
+  <br>
+    
+  <section>
+    <h3>- Cuadro general</h3>
+
+    <table>
+      <colgroup>
+        <col style="background-color: rgb(221, 229, 107)";>
+      </colgroup>
+
+      <tr>
+        <th style="width:50px">Player</th>
+        <th style="width:30px"><a href="locales.html">C.G.</a></th>
+
+        <th style="width:30px">Ext.</th>               
+        <th style="width:20px"><a href="giras.html">Gira</a></th>
+        <th style="width:30px"><a href="bolilla.html">B.N.</a></th>
+        <th style="width:30px">Tot</th>
+        </tr>
+        <tr>
+          <td>Diegui</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Edu</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Fer</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Gaby</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Joaco</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Juancho</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td>Julito</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td>Negro</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Panza</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+  
+        <tr>
+          <td>Presi</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Sensei</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Torni</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+  
+    <p style="font-size: 12px;">C.G.: Torneos organizados por Campo Grande. (1)</p>
+  
+    <p style="font-size: 12px;">Ext.: Fuera de Campo Grande con al menos 6 jugadores de Bolilla.</p>
+    <p style="font-size: 12px;">Gira: Giras anuales.</p>
+    <p style="font-size: 12px;">B.N.: Anual de Bolilla Negra.</p>
+    <br>
+    <br>  
+  </section>
+  
+  <section>
+  <h1 id="reflexiones">Reflexiones</h1>
+      
+  <p class="frase">"Con mi mujer nos llevamos bien. Ayer cuando llegué tomamos un café, le conté de nuestro viaje, me contó de sus actividades con hijas y nietos. Cenamos temprano, una pechuga de pollo grillada con ensalada de tomates.  Agua mineral con gas.
+  Me acosté temprano.</p><br>
+  <p class="frase">
+  Dormí como el orto.  Me desperté a las 2 de la mañana, me volví a dormir como a las 4, me volví a despertar 7:30.  Me miré en el espejo, todo demacrado.</p><br>
+  <p class="frase">
+  Tres días y medio con amigos.  Comiendo como cerdos y chupando como esponjas.  Por más de cuatro horas diarias, empujando un carrito por subidas y bajadas.  Dulce de leche, champagne, mariscos, asado, wiskey, pizzas, etc. etc.  Durante tres noches...dormí como un angelito.  No me levanté ni para mear....y a las ocho ya estaba en pie para enfrentar una nueva jornada.</p><br>
+  <p class="frase"><strong>
+  Decime lo que es la vida saludable."</strong></p>
+  <p style="text-align: right; font-size: 13px">Anónimo - 2023 (dc)</p>
+  </section>
+
+    <br>  <br> 
+
+  <section>
+    <h1 id="habeas">Habeas Corpus</h1>
+  
+    <p class="frase">Ante situaciones de extrema peligrosidad, eliminación de derechos, amenazas a la libertad, a la independencia económica o a la libre circulación, se puede descargar este documento, que luego de los ajustes correspondientes podrá ser intervenido por los integrantes de Bolilla"</p>
+    <br>  
+    <a href="assets/docs/notanegro.docx" download="nota negro.docx"> ** Descargar archivo **</a>
+          
+  </section>
+
+    <div id="footer"></div>
+    <br><br>
+    <a href="menuprueba.html">*</a>
+
+</body>
+</html>

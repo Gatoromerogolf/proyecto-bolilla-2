@@ -56,7 +56,7 @@ id=" ";  class=" "; a -  tr --ul etc
 *{
     margin: 2px;
 }
-
+/*  */
 body {
     font-family: sans-serif;
     background-color: #e4e3e3;
@@ -100,6 +100,15 @@ h3 {
     margin-bottom: 20px;
     color: #051774;
     font-size:18px
+}
+
+#ingresositio {
+    color: white;
+    text-align: center;
+    background-color: rgba(226, 14, 74, 0.353);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
 }
 
 hr {
@@ -177,6 +186,22 @@ li.lisdesor1{
     background-color: rgba(71, 134, 71, 0.353);
     text-decoration: none;
 }
+
+#pepenono{
+    width:140px;
+    text-align: center;
+    font-size:15px;
+    color:rgb(11, 11, 11);
+    text-decoration: none;
+    margin: 3px;
+    padding: 8px 10px;
+    line-height: 20px;
+    background:rgb(114, 130, 95);
+    display:inline-block;
+    box-shadow:2px 5px 0px #000;
+    border-radius: 10%;
+}
+
 
 div.gallery {
     margin: 1px;
@@ -318,17 +343,55 @@ a{
     scroll-snap-align: center;
 }
 
-
-.submenu{
-    width:78px;
+.submenu0{
+    width:150px;
     text-align: center;
-    font-size:13px;
-    color:white;
+    font-size:15px;
+    color:rgb(11, 11, 11);
     text-decoration: none;
     margin: 3px;
-    padding: 8px 10px;
+    padding: 8px 5px;
     line-height: 20px;
-    background:rgb(114, 130, 95);
+    background:rgb(236, 211, 21);
+    display:inline-block;
+    box-shadow:2px 5px 0px #000;
+    border-radius: 10%;
+}
+
+#pepe{
+    width:150px;
+    text-align: center;
+    font-size:15px;
+    color:rgb(11, 11, 11);
+    text-decoration: none;
+    margin: 3px;
+    padding: 8px 5px;
+    line-height: 20px;
+    background:rgb(236, 211, 21);
+    display:inline-block;
+    box-shadow:2px 5px 0px #000;
+    border-radius: 10%;
+}
+
+.juntos{
+   /* padding: 0px;
+    margin: 0px;*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+/*con float right van para el otro lado*/
+}
+
+.submenu{
+    width:75px;
+    text-align: center;
+    font-size:12px;
+    color:black;
+    text-decoration: none;
+    margin: 3px;
+    padding: 5px 10px;
+    line-height: 20px;
+    background:green;
     display:inline-block;
     box-shadow:2px 5px 0px #000;
     border-radius: 10%;
