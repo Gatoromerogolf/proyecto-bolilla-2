@@ -370,15 +370,15 @@ a{
     width:150px;
     text-align: center;
     font-size:15px;
-    color:rgb(11, 11, 11);
+    color:white;
     text-decoration: none;
     margin: 3px;
-    padding: 8px 5px;
+    padding: 3px 3px;
     line-height: 20px;
-    background:rgb(236, 211, 21);
+    background:black;
     display:inline-block;
-    box-shadow:2px 5px 0px #000;
-    border-radius: 10%;
+    /*box-shadow:2px 5px 0px #000;*/
+    border-radius: 5%;
 }
 
 .juntos{
@@ -438,4 +438,26 @@ a.submenu:active{
     display:inline-block;
     box-shadow:2px 5px 0px #000;
     border-radius: 10%;
+}
+
+.scores{
+    width: 80%;
+    border-collapse: collapse;
+    border: 0px solid white;
+    letter-spacing: 0px;
+    font-size: 0,9rem;
+    margin: 0 auto;
+    background-color: #e4e3e3;
+    text-align: center;
+}
+
+td.scores, th.scores{
+    border-collapse: collapse;
+    /*border: 0px dotted;*/
+    padding: 18px 15px;
+    text-align: center;
+}
+
+p.scores{
+    text-align: center;
 }
