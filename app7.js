@@ -1,5 +1,7 @@
 // Obtén la referencia a la tabla en tu HTML
 
+//  presenta los resultados del ultimo dia jugado
+
 const ultDia = document.getElementById("ultimaFecha");
 
 const ultFecha = fechas[fechas.length - 1].textoFecha;

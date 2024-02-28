@@ -1,3 +1,5 @@
+// planilla de resultados generales de los sábados
+
 // Obtén la referencia a la tabla en tu HTML
 let tabla = document.getElementById("miTabla");
 
