@@ -188,7 +188,7 @@ filasOrdenadas[i + 2] = [];
               (matriz[i + 2][j] -=700);
               //cel01.textContent = matriz[i + 2][j];
               //cel01.style.color = "rgb(226, 144, 22)";
-              cel01.style.color = "rgb(13, 163, 29)";
+              cel01.style.color = "rgb(0, 255, 0)";
               cel01.style.fontWeight = "bold"; 
               }
       }
@@ -202,14 +202,17 @@ filasOrdenadas[i + 2] = [];
 
     if (j===2 && cel01.textContent !== "-"){
       cel01.style.color = "rgb(255, 0, 0)";
+      cel01.style.fontWeight = "bold"; 
     }
 
     if (j===3 && cel01.textContent !== "-"){
       cel01.style.color = "rgb(0, 0, 255)";
+      cel01.style.fontWeight = "bold"; 
     }
 
     if (j===4 && cel01.textContent !== "-"){
       cel01.style.color = "rgb(0, 255, 0)";
+      cel01.style.fontWeight = "bold"; 
     }
   } 
 }
