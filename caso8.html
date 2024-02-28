@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="assets/images/bn2.ico" rel="icon">
+
+    <link href="styles/styleblog.css" rel="stylesheet">
+  
+    <meta name="keywords" content="golf, palos, pelotas">
+    <meta name="description" content="Sitio de bolilla">
+    <meta name="author" content="Sensei">
+    <meta name="copyright" content="Meta Inc.">
+</head>
+<body>
+
+    <div id="aperturaResul"></div>  
+    <h3>Torneo Apertura. 6 mejores resultados</h3>
+    <div style="width:100%px; height: 510px; overflow-x: scroll;">
+
+      <table id="tablaSeis" style="width: 400px; position: relative;">
+        <colgroup>
+          <col style="background-color: rgb(248, 248, 130)" ;>
+          <col style="width: 10px;" ;>
+          <col style="width: 10px;" ;>
+          <col style="width: 10px;" ;>
+          <col style="width: 10px;" ;>
+        </colgroup>
+
+        <tr>
+          <th rowspan="2" style="width: 5px; position:sticky; left:0;">Player</th>
+          <th rowspan="2">Ptos</th>
+          <th rowspan="2">Prom</th>
+          <th colspan="5">Febrero</th>
+          <th colspan="4">Marzo</th>
+          <th colspan="4">Abril</th>
+          <th colspan="4">Mayo</th>
+        </tr>
+
+        <tr>
+          <th>03</th>
+          <th>10</th>
+          <th>13</th>
+          <th>17</th>
+          <th>24</th>
+          <th>02</th>
+          <th>09</th>
+          <th>23</th>
+          <th>30</th>
+          <th>06</th>
+          <th>13</th>
+          <th>20</th>
+          <th>27</th>
+          <th>04</th>
+          <th>11</th>
+          <th>18</th>
+          <th>25</th>
+        </tr>
+
+          <tbody>
+        <tr id="lineaScore">
+          <td></td>
+        </tr>
+          </tbody>
+           <!--  <tr>
+              <td style="width: 5px; position:sticky; left:0;">Negro</td>
+
+              <td>287</td>
+              <td>71.8</td>
+              <td style="color:green; background-color: white;"><strong>73</strong></td>
+              <td style="color:red; background-color: white;"><strong>65</strong></td>
+              <td>--</td>
+              <td style="color:green; background-color: white;"><strong>73</strong></td>
+              <td style="background-color: white;"><strong>76</strong></td>
+              <td style="background-color: white;"><strong></strong></td>
+              <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+              <td></td> <td></td> <td></td>
+            </tr>
+
+            <tr>
+              <td style="width: 5px; position:sticky; left:0;">Diegui</td>
+
+              <td>361</td>
+              <td>72.2</td>
+              <td style="background-color: white;"><strong>73</strong></td>
+              <td style="color:green;background-color: white;"><strong>71</strong></td>
+              <td style="color:red; background-color: white;"><strong>73</strong></td>
+              <td style="background-color: white;">74<strong></strong></td>
+              <td style="color:red; background-color: white;"><strong>70</strong></td>
+              <td style="background-color: white;"><strong></strong></td>
+              <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+              <td></td> <td></td> <td></td>
+            </tr>
+
+            <tr>
+              <td style="width: 5px; position:sticky; left:0;">Torni</td>
+
+              <td>369</td>
+              <td>73.8</td>
+              <td style="background-color: white;"><strong>75</strong></td>
+              <td style="background-color: white;"><strong>76</strong></td>
+              <td style="color:green; background-color: white;"><strong>77</strong></td>
+              <td style="color:red; background-color: white;"><strong>64</strong></td>
+              <td style="background-color: white;"><strong>77</strong></td>
+              <td style="background-color: white;"><strong></strong></td>
+              <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+              <td></td> <td></td> <td></td>
+            </tr>
+
+
+            <tr>
+              <td style="width: 5px; position:sticky; left:0;">Presi</td>
+
+              <td>297</td>
+              <td>74.3</td>
+              <td style="background-color: white;"><strong>78</strong></td>
+              <td style="color:blue;background-color: white;"><strong>71</strong></td>
+              <td>--</td>
+              <td style="background-color: white;"><strong>73</strong></td>
+              <td style="color:green; background-color: white;"><strong>75</strong></td>
+              <td style="background-color: white;"><strong></strong></td>
+              <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+              <td></td> <td></td> <td></td>
+            </tr>
+
+            <tr>
+              <td style="width: 5px; position:sticky; left:0;">Juancho</td>
+ 
+              <td>228</td>
+              <td>76.0</td>
+              <td style="background-color: white;"><strong>74</strong></td>
+              <td>--</td>
+              <td style="background-color: white;"><strong>78</strong></td>
+              <td>--</td>
+              <td style="background-color: white;"><strong>76</strong></td>
+              <td style="background-color: white;"><strong></strong></td>
+              <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+              <td></td> <td></td> <td></td>
+            </tr>
+
+
+            <tr>
+              <td style="width: 5px; position:sticky; left:0;">Panza</td>
+ 
+              <td>228</td>
+              <td>76.0</td>
+              <td style="color:blue; background-color: white;"><strong>66</strong></td>
+              <td style="background-color: white;"><strong>80</strong></td>
+              <td >--</td>
+              <td >--</td>
+              <td style="background-color: white;"><strong>82</strong></td>
+              <td style="background-color: white;"><strong></strong></td>
+              <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+              <td></td> <td></td> <td></td>
+            </tr>
+
+
+            <tr>
+            <td style="width: 5px; position:sticky; left:0;">Gaby</td>
+
+            <td>392</td>
+            <td>78.4</td>
+            <td style="color:red; background-color: white;"><strong>65</strong></td>
+            <td style="background-color: white;"><strong>89</strong></td>
+            <td style="background-color: white;"><strong>86</strong></td>
+            <td style="background-color: white;"><strong>81</strong></td>
+            <td style="color:blue; background-color: white;"><strong>71</strong></td>
+            <td style="background-color: white;"><strong></strong></td>
+            <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+            <td></td> <td></td> <td></td>
+            </tr>
+
+            <tr>
+              <td style="width: 5px; position:sticky; left:0;">Joaco</td>
+
+              <td>406</td>
+              <td>81.2</td>
+              <td style="background-color: white;"><strong>82</strong></td>
+              <td style="background-color: white;"><strong>87</strong></td>
+              <td style="color: blue; background-color: white;"><strong>76</strong></td>
+              <td style="background-color: white;"><strong>79</strong></td>
+              <td style="background-color: white;"><strong>82</strong></td>
+              <td style="background-color: white;"><strong></strong></td>
+              <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+              <td></td> <td></td> <td></td>
+            </tr>
+
+            <tr>
+              <td style="width: 5px; position:sticky; left:0;">Fer</td>
+
+              <td>164</td>
+              <td>82.0</td>
+              <td>--</td>
+              <td>--</td>
+              <td style="background-color: white;"><strong>84</strong></td>
+              <td style="background-color: white;"><strong>80</strong></td>
+              <td>--</td>
+              <td style="background-color: white;"><strong></strong></td>
+              <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+              <td></td> <td></td> <td></td>
+            </tr>
+
+            <tr>
+              <td style="width: 5px; position:sticky; left:0;">Edu</td>
+
+              <td>412</td>
+              <td>82.4</td>
+              <td style="background-color: white;"><strong>84</strong></td>
+              <td style="background-color: white;"><strong>85</strong></td>
+              <td style="background-color: white;"><strong>84</strong></td>
+              <td style="background-color: white;"><strong>80</strong></td>
+              <td style="background-color: white;"><strong>79</strong></td>
+              <td style="background-color: white;"><strong></strong></td>
+              <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+              <td></td> <td></td> <td></td>
+            </tr>
+
+            <tr>
+              <td style="width: 5px; position:sticky; left:0;">Julito</td>
+
+              <td>249</td>
+              <td>83.0</td>
+              <td>--</td>
+              <td style="background-color: white;"><strong>88</strong></td>
+              <td>--</td>
+              <td style="background-color: white;"><strong>86</strong></td>
+              <td style="background-color: white;"><strong>75</strong></td>
+              <td style="background-color: white;"><strong></strong></td>
+              <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+              <td></td> <td></td> <td></td>
+            </tr>
+
+
+            <tr>
+              <td style="width: 5px; position:sticky; left:0;">Sensei</td>
+
+              <td>335</td>
+              <td>83.8</td>
+              <td style="background-color: white;"><strong>98</strong></td>
+              <td>--</strong></td>
+              <td style="background-color: white;"><strong>87</strong></td>
+              <td style="color: blue; background-color: white;"><strong>71</strong></td>
+              <td style="background-color: white;"><strong>79</strong></td>
+              <td style="background-color: white;"><strong></strong></td>
+              <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+              <td></td> <td></td> <td></td>
+            </tr> -->
+
+      </table>
+    </div>
+
+    <script src="datos4a.js"></script>
+    <script src="datos5.js"></script>
+    <script src="app8.js"></script>
+</body>
+</html>
