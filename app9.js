@@ -1,13 +1,8 @@
 
 // Crear una matriz de 12 filas por 22 columnas inicializada en cero
-const filas = 12;
+const filasMat = 12;
 const columnas = 20;
-const matriz = new Array(filas).fill(0).map(() => new Array(columnas).fill(0));
-
-console.log(matriz)
-
-matriz [0] [0] = "Diegui"
-
+const matriz2 = new Array(filasMat).fill(0).map(() => new Array(columnas).fill(0));
 
 
 // Paso 1: Agrupar los datos por jugador, manteniendo solo pares de fec y neto
@@ -56,8 +51,6 @@ for (play in playersData) {
     promedios = sumaNetos / playersData[play].length;
     const promedioDec = promedios.toFixed(1);
     playersData[play].promedios = promedioDec;}
-
-
 
 
 for (const key in playersData) {
@@ -129,9 +122,9 @@ for (const play in playersData) {
    //console.log(play);
    //console.log(playersData[play].sumaNetos)
    //console.log (playersData[play].promedios);
-   matriz[i][0] = play;
-   matriz[i][1] = (playersData[play].sumaNetos);
-   matriz[i][2] = (playersData[play].promedios);
+   matriz2[i][0] = play;
+   matriz2[i][1] = (playersData[play].sumaNetos);
+   matriz2[i][2] = (playersData[play].promedios);
    i++}
 
 
@@ -142,16 +135,12 @@ for (const elemento in playersData) {
     //console.log (playersData[elemento][j]);
     //console.log (playersData[elemento][j].neto);
     col=(playersData[elemento][j].fec) + 2
-    matriz [i][col] = (playersData[elemento][j].neto);
+    matriz2 [i][col] = (playersData[elemento][j].neto);
     }
     i++
   }
 
-matriz.sort((filaA, filaB) => filaA[2] - filaB[2]);    
-
-
-//console.log (matriz)
-
+matriz2.sort((filaA, filaB) => filaA[2] - filaB[2]);    
 
 
 
@@ -163,13 +152,13 @@ for (i=0; i<12; i++){
   const lineaDatos2 = tablaSeis2.insertRow();
 
   for (j=0; j<20; j++){
-    console.log (typeof (matriz[i][j]))
-    if ((matriz [i][j]) === 0){
-       (matriz [i][j]) = "--"}
-    console.log (matriz [i][j]);
+    //console.log (typeof (matriz2[i][j]))
+    if ((matriz2 [i][j]) === 0){
+       (matriz2 [i][j]) = "--"}
+    //console.log (matriz2 [i][j]);
     const celdagral = lineaDatos2.insertCell(-1);
-    celdagral.textContent = matriz[i][j];
-    if ((matriz [i][j]) === "--"){
+    celdagral.textContent = matriz2[i][j];
+    if ((matriz2 [i][j]) === "--"){
       celdagral.style.backgroundColor="white";
     }
   }
