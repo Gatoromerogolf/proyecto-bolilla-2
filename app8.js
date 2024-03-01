@@ -115,7 +115,6 @@ for (const nombreGrupo in playersData) {
 console.log (playersData)
 
 
-
 ////   ninguna de estas anduvo
 
 /* 
