@@ -169,6 +169,9 @@ for (i=0; i<12; i++){
     console.log (matriz [i][j]);
     const celdagral = lineaDatos2.insertCell(-1);
     celdagral.textContent = matriz[i][j];
+    if ((matriz [i][j]) === "--"){
+      celdagral.style.backgroundColor="white";
+    }
   }
 }
 
