@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#8f7adas">
+  <meta name="keywords" content="golf, palos, pelotas">
+  <meta name="description" content="Sitio de bolilla">
+  <meta name="author" content="Sensei">
+  <meta name="copyright" content="Meta Inc.">
+
+  <title>Blog de bolilla</title>
+  <link href="assets/images/bn2.ico" rel="icon">
+  <link rel="stylesheet" href="styles/styleblog.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+
+
+  <!-- <script src="js/saludo.js"></script>-->
+</head>
+
+<body>
+
+    <div id="modalDiegui" class="modal" style="display:none;">
+        <!-- Contenido del Modal para Diegui -->
+        <p>Información de Diegui</p>
+        <table>
+            <tr>
+              <td>Diegui</td>
+              <td>14</td>
+              <td>2</td>
+              <td>14</td>
+              <td>2</td>
+              <td>14</td>
+              <td>2</td>
+            </tr>
+            <tr>
+                <td>Diegui</td>
+                <td>14</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Diegui</td>
+                <td>14</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Diegui</td>
+                <td>14</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Diegui</td>
+                <td>14</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Diegui</td>
+                <td>14</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Diegui</td>
+                <td>14</td>
+                <td>2</td>
+              </tr>
+        </table>
+        <button onclick="cerrarModal('modalDiegui')">Cerrar</button>
+      </div>
+      
+      <div id="modalNegro" class="modal" style="display:none;">
+        <!-- Contenido del Modal para Negro -->
+        <p>Información de Negro</p>
+        <table>
+            <tr>
+                <td>Negro</td>
+                <td>10</td>
+                <td>2</td>
+              </tr>
+        </table>
+        <button onclick="cerrarModal('modalNegro')">Cerrar</button>
+      </div>
+
+      <style>
+        .modal {
+          position: fixed; /* Mantén el modal fijo */
+          z-index: 1; /* Colócalo sobre otros elementos */
+          left: 0;
+          top: 20px;
+          width: 60%; /* Anchura completa */
+          height: 100%; /* Altura completa */
+          overflow: auto; /* Habilita el scroll si es necesario */
+          background-color: white; /* Color de fondo */
+
+        }
+        
+        /* Contenido/Estilo del Modal */
+        .modal-content {
+          background-color: #fefefe;
+          margin: 15% auto; /* 15% desde la parte superior y centrado */
+          padding: 20px;
+          border: 1px solid #888;
+          width: 80%; /* Podrías querer cambiar esto para adaptarlo a tus necesidades */
+        }
+        </style>
+        
+
+  <p style="font-size: 15px">- Consulta de puntos:</p>
+    <table>
+        <tr>
+          <td>Diegui</td>
+          <td>14</td>
+          <td>2</td>
+          <td>  <button class="pepe" data-info="Diegui">Consultar Diegui</button></td>
+        </tr>
+        <tr>
+          <td>Negro</td>
+          <td>10</td>
+          <td>2</td>
+          <td>  <button class="pepe" data-info="Negro">Consultar Negro</button></td>
+        </tr>
+        <tr>
+            <td>Diegui</td>
+            <td>14</td>
+            <td>2</td>
+            <td>  <button class="pepe" data-info="Diegui">Consultar Diegui</button></td>
+          </tr>
+          <tr>
+            <td>Negro</td>
+            <td>10</td>
+            <td>2</td>
+            <td>  <button class="pepe" data-info="Negro">Consultar Negro</button></td>
+          </tr>
+      </table>
+
+
+  <dialog id="ventana" style="padding: 10px;width: 310px; ">
+    <!--<fieldset id="matriculas">-->
+    <legend>Matrículas</legend>
+    <br>
+    <table>
+        <tr>
+            <td>Diegui</td>
+            <td>14</td>
+            <td>2</td>
+            <td>3°</td>
+            <td>Sábado 10.02</td>
+          </tr>
+          <tr>
+            <td style="background-color: white;"></td>
+            <td style="background-color: white;"></td>
+            <td>6</td>
+            <td>1°</td>
+            <td>Martes 13.02</td>
+          </tr>
+          <tr>
+            <td style="background-color: white;"></td>
+            <td style="background-color: white;"></td>
+            <td>6</td>
+            <td>1°</td>
+            <td>Sábado 24.02</td>
+          </tr>
+          <tr>
+            <td style="background-color: white;"></td>
+            <td style="background-color: white;"></td>
+            <td>6</td>
+            <td>1°</td>
+            <td>Martes 13.02</td>
+          </tr>
+          <tr>
+            <td style="background-color: white;"></td>
+            <td style="background-color: white;"></td>
+            <td>6</td>
+            <td>1°</td>
+            <td>Sábado 24.02</td>
+          </tr>
+
+    </table>
+
+    <!-- </fieldset>-->
+
+  </dialog>
+  
+  <script src="datos4a.js"></script>
+  <script src="datos5.js"></script>
+  <script src="app10.js"></script>
+
+</body>
+
+</html>
