@@ -461,3 +461,26 @@ td.scores, th.scores{
 p.scores{
     text-align: center;
 }
+
+
+
+#contenedorCuentaRegresiva {
+    width: 350px;
+    height: 300px;
+    background-color: red; /* Puedes quitar el color de fondo si la imagen lo cubrirá totalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-image: url('../assets/images/chacras.png') no-repeat; /* Agrega tu imagen de fondo aquí */
+    background-size: cover; /* Asegura que la imagen cubra completamente el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+  }
+  
+  #cuentaRegresiva {
+    font-size: 40px; /* Tamaño de los números */
+    font-weight: bold; /* Hacer los números más gruesos */
+    color: black;
+  }
