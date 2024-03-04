@@ -477,6 +477,7 @@ p.scores{
     background-image: url('../assets/images/chacras.png') no-repeat; /* Agrega tu imagen de fondo aquí */
     background-size: cover; /* Asegura que la imagen cubra completamente el contenedor */
     background-position: center; /* Centra la imagen en el contenedor */
+    margin: 10px;
   }
   
   #cuentaRegresiva {
