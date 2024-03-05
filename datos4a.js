@@ -60,7 +60,7 @@ const players2 = [
     {fec:5, play: 'Sensei', neto:79, pos:0, pg:0, or:0},
     {fec:5, play: 'Torni', neto:77, pos:0, pg:0, or:0},
     {fec:6, play: 'Edu', neto:72, pos:3, pg:1, or:0},
-    {fec:6, play: 'Fer', neto:0, pos:0, pg:0, or:0},
+    {fec:6, play: 'Fer', neto:76, pos:0, pg:0, or:0},
     {fec:6, play: 'Gaby', neto:0, pos:0, pg:0, or:0},
     {fec:6, play: 'Joaco', neto:85, pos:0, pg:0, or:0},
     {fec:6, play: 'Juancho', neto:68, pos:2, pg:3, or:0},
