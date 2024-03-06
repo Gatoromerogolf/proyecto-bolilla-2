@@ -4,24 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/styleventana.css">
 </head>
+
 <body>
     
-    <h1>Ranking Fedex</h1>
-    <table  id="rankingFedex">
-      <tr>
-        <th rowspan="2" style="width: 5px; position:sticky; left:0;">Player</th>
-        <th rowspan="2">Total</th>
-        <th colspan="3">Detalle</th>
+  <h1>Ranking Fedex</h1>
+  <table  id="rankingFedex">
+    <colgroup>
+      <col style="background-color: rgb(250, 250, 32)" ;>
+    </colgroup>
+    <tr>
+      <th>Jugador</th>
+      <th>Puntos</th>
+      <th>Detalle</th>
+    </tr>
+    <tbody>
+      <tr id="lineaScore">
+          <td></td>
       </tr>
-      <tr>
-            <th>Ptos</th>
-            <th>Pos</th>
-            <th>Torneo</th>
-      </tr>
+    </tbody> 
+  </table>
 
+<div id="modalGeneral" class="modal" style="display:none;">
+  <p id="tituloModalGeneral"></p>
+  <!-- <p id="tituloPuntosGeneral"></p> -->
+  <table id="tablaModalGeneral">
+    <tr>
+      <th>Puntos</th>
+      <th>Posición</th>
+      <th>Torneo</th>
+    </tr>
+    <tr id="lineaModalGeneral">
+      <td></td>
+    </tr>
+  </table>
+  <br>
+  <button onclick="cerrarModal('modalGeneral')">Cerrar</button>
+</div>
+
+<!--   <div id="modalDiegui" class="modal" style="display:none;">
+    <p>Información de Diegui</p>
+    <table>
+      <tr>
+        <td>Diegui</td>
+        <td>14</td>
+        <td>2</td>
+        <td>14</td>
+        <td>2</td>
+        <td>14</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Diegui</td>
+        <td>14</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Diegui</td>
+        <td>14</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Diegui</td>
+        <td>14</td>
+        <td>2</td>
+      </tr>
     </table>
+    <button onclick="cerrarModal('modalDiegui')">Cerrar</button>
+  </div>
+    
+  <div id="modalNegro" class="modal" style="display:none;">
 
-    <script src="datosFedex.js"></script>    
+    <p>Información de Negro</p>
+    <table>
+      <tr>
+        <td>Negro</td>
+        <td>10</td>
+        <td>2</td>
+      </tr>
+    </table>
+    <button onclick="cerrarModal('modalNegro')">Cerrar</button>
+  </div>
+ -->
+
+    <script src="datos5.js"></script>  
+    <script src="datosFedex.js"></script>   
+    <script src="armamatriz.js"></script>  
+
 </body>
 </html>
