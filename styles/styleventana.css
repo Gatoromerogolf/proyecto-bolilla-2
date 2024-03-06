@@ -3,13 +3,13 @@
   position: fixed; /* Mantén el modal fijo */
   z-index: 1; /* Colócalo sobre otros elementos */
   left: 0;
-  top: 30px;
+  top: 20px;
   width: 60%; /* Anchura completa */
   /*height: 100%; /* Altura completa */
   overflow: auto; /* Habilita el scroll si es necesario */
   background-color: rgb(216, 214, 214); /* Color de fondo */
   border: 3px solid black;
-  margin: 40px;
+  margin: 30px;
   padding: 5px;
 
 
