@@ -1,19 +1,13 @@
-
 /* const filasMatFx = 12;
 const columnasMatFx = 2;
 const matrizFx = new Array(filasMatFx).fill(0).map(() => new Array(columnasMatFx).fill(0)); */
  const matrizFx = [];
 
-
 //La función **`map()`** es un **método de arreglo** que permite crear un nuevo arreglo a partir de otro, aplicando una operación o transformación a cada elemento del arreglo original. 
 //Aquí está el desglose:
-
 //1. **`new Array(filasMatFx).fill(0)`**: Esto crea un nuevo arreglo con la longitud especificada por `filasMatFx` y llena cada elemento con el valor `0`. Por ejemplo, si `filasMatFx` es 3, obtendríamos `[0, 0, 0]`.
-
 //2. **`.map(() => new Array(columnasMatFx).fill(0))`**: El método `map()` se aplica al arreglo recién creado. Para cada elemento (que en este caso son los arreglos de ceros), se ejecuta la función de devolución de llamada proporcionada. En este caso, la función de devolución de llamada crea un nuevo arreglo con la longitud especificada por `columnasMatFx` y llena cada elemento con el valor `0`. Por ejemplo, si `columnasMatFx` es 4, obtendríamos `[[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]`.
-
 //En resumen, la sentencia crea una matriz bidimensional (una matriz de arreglos) con `filasMatFx` filas y `columnasMatFx` columnas, inicializada con ceros. Es útil cuando necesitas crear una matriz con un tamaño específico y valores iniciales iguales.
-
 
 /* for (const puntos of puntosFedex) {
   const nombreJugador = puntos.playFd;
@@ -30,13 +24,10 @@ const matrizFx = new Array(filasMatFx).fill(0).map(() => new Array(columnasMatFx
         }
     } */
 
-
-
 //- Utilizo `findIndex` para buscar si el jugador ya existe en la matriz.
 //- Si el jugador no existe, agrego un nuevo elemento al final de la matriz.
 // POR ESO SE DEFINIO LA MATRIZ VACIA, SINO LO PONIA COMO FILA 13
 //- Si existe el jugador, actualizo los puntos
-
 
 for (const puntos of puntosFedex) {
   const nombreJugador = puntos.playFd;
@@ -54,7 +45,6 @@ matrizFx.sort((a, b) => b[1] - a[1]);
 /* 
   // Llamada al método sort() con la función de comparación
 matrizFx.sort(compararPorColumna2);
-
 // Función de comparación para ordenar por la columna 2 (índice 1)
 // ASCENDENTE
 function compararPorColumna2(filaA, filaB) {
@@ -62,7 +52,6 @@ function compararPorColumna2(filaA, filaB) {
   const valorB = parseFloat(filaB[1]);
   return valorA - valorB;
 } */
-
 
 let lineaDatosFd = document.getElementById("lineaScore")
 
@@ -91,17 +80,14 @@ celdaBoton.appendChild(boton);
 
 // Agrega la celda con el botón a la fila
 lineaDatosFd.appendChild(celdaBoton);
-
 }
-/* ```
+
 /* 
 En este ejemplo:
 - Creamos un nuevo elemento `<td>` llamado `celdaBoton`.
 - Creamos un botón dentro de `celdaBoton` con la clase `"pepe"` y el atributo `data-info` establecido en `"Negro"`.
 - Finalmente, agregamos `celdaBoton` a la fila (`lineaDatos`) de la tabla.
-
  */
-
 
 // Selecciona todos los elementos con la clase 'pepe'
 const botones = document.querySelectorAll('.pepe');
@@ -145,7 +131,6 @@ function eliminarFilas(){
       tablaModalGeneral.deleteRow(i);
   }
 }
-
 
 /* 
 function mostrarModal(info) {
