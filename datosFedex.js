@@ -16,5 +16,9 @@ const puntosFedex = [
     {playFd: 'Joaco', puntosFd:4, posFd:2, fechaFd:3},
     {playFd: 'Sensei', puntosFd:4, posFd:2, fechaFd:4},
     {playFd: 'Juancho', puntosFd:4, posFd:2, fechaFd:6},
-    {playFd: 'Edu', puntosFd:2, posFd:3, fechaFd:6}
+    {playFd: 'Edu', puntosFd:2, posFd:3, fechaFd:6},
+/*     {playFd: 'Edu', puntosFd:10, posFd:1, fechaFd:90},
+    {playFd: 'Sensei', puntosFd:10, posFd:1, fechaFd:90},
+    {playFd: 'Sensei', puntosFd:10, posFd:1, fechaFd:91}, */
+
 ]
