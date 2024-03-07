@@ -29,7 +29,7 @@ for (const play in playersData) {
     playersData[play].sort((a, b) => a.neto - b.neto);
 }
 
-const limiteElementos = 17;
+const limiteElementos = 6;
 
 //El método slice devuelve una copia de una porción del arreglo. 
 for (play in playersData) {

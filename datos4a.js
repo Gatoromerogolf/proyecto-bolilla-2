@@ -70,5 +70,5 @@ const players2 = [
     {fec:6, play: 'Panza', neto:0, pos:0, pg:0, or:0},
     {fec:6, play: 'Presi', neto:73, pos:0, pg:0, or:0},
     {fec:6, play: 'Sensei', neto:87, pos:0, pg:0, or:0},
-    {fec:6, play: 'Torni', neto:80, pos:0, pg:0, or:0}
+    {fec:6, play: 'Torni', neto:80, pos:0, pg:0, or:0},
 ]
