@@ -22,7 +22,7 @@ function cuentaRegresiva(fechaObjetivo) {
       // Si la cuenta regresiva termina, mostrar algún mensaje
       if (diferencia < 0) {
         clearInterval(x);
-        document.getElementById("cuentaRegresiva").innerHTML = "¡El evento ha comenzado!";
+        document.getElementById("cuentaRegresiva").innerHTML = "¡La fiesta empezó!!!!";
       }
     };
   
