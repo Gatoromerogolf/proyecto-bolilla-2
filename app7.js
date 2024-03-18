@@ -3,14 +3,14 @@
 
 const ultDia = document.getElementById("ultimaFecha");
 
-const ultFecha = fechas[fechas.length - 1].textoFecha;
+const ultFecha = fechas[fechas.length - 3].textoFecha;
 
 
 ultDia.textContent = ultFecha;
 
 // obtiene los movimientos de la ultima fecha
 
-const filteredPlayers = players2.filter(player => player.fec === fechas.length);
+const filteredPlayers = players2.filter(player => player.fec === fechas.length-2);
 
 
 filteredPlayers.sort((a, b) => {
