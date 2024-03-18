@@ -75,6 +75,15 @@ header {
     margin-bottom:30px;
 }
 
+#cancion{
+    background-color: rgb(103, 60, 243);
+    margin: 10;
+    padding: 10px;
+    text-align: center;
+    color: #fbfbfd;
+    font-size: larger;
+    margin-bottom: 5px;
+}
 
 h1 {
     background-color: rgb(63, 63, 63);

@@ -20,9 +20,19 @@ const puntosFedex = [
     {playFd: 'Joaco', puntosFd:6, posFd:1, fechaFd:7},
     {playFd: 'Presi', puntosFd:4, posFd:2, fechaFd:7},
     {playFd: 'Fer', puntosFd:2, posFd:3, fechaFd:7},
+    {playFd: 'Negro', puntosFd:20, posFd:"1*", fechaFd:90},
+    {playFd: 'Edu', puntosFd:15, posFd:"2*", fechaFd:90},
+    {playFd: 'Juancho', puntosFd:10, posFd:"3*", fechaFd:90},
+    {playFd: 'Diegui', puntosFd:8, posFd:"4*", fechaFd:90},
+    {playFd: 'Torni', puntosFd:5, posFd:"5*", fechaFd:90},
+    {playFd: 'Fer', puntosFd:2, posFd:"6*", fechaFd:90},
 
-/*     {playFd: 'Edu', puntosFd:10, posFd:1, fechaFd:90},
-    {playFd: 'Sensei', puntosFd:10, posFd:1, fechaFd:90},
-    {playFd: 'Sensei', puntosFd:10, posFd:1, fechaFd:91}, */
-
+/*  {playFd: 'Edu', puntosFd:10, posFd:1, fechaFd:90},
+    {playFd: 'Sensei', puntosFd:10, posFd:1, fechaFd:90}*/
+    {playFd: 'Sensei', puntosFd:10, posFd:1, fechaFd:91},
+    {playFd: 'Negro', puntosFd:10, posFd:1, fechaFd:91},
+    {playFd: 'Edu', puntosFd:10, posFd:1, fechaFd:91},
+    {playFd: 'Gaby', puntosFd:10, posFd:1, fechaFd:91},
+    {playFd: 'Torni', puntosFd:10, posFd:1, fechaFd:91},
+    {playFd: 'Juancho', puntosFd:10, posFd:1, fechaFd:91}
 ]
