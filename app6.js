@@ -1,4 +1,4 @@
-// planilla de resultados generales de los sábados
+// Planilla de resultados generales de los sábados
 
 // Obtén la referencia a la tabla en tu HTML
 let tabla = document.getElementById("miTabla");
@@ -235,13 +235,4 @@ filasOrdenadas[i + 2] = [];
     const totalDia = filaTotalJugadores.insertCell(-1)
     totalDia.textContent = totalJugadores[j]
   }
-
-
-
-
-
-
-
-
-
 
